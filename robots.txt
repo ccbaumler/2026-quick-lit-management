@@ -1,1 +1,1 @@
-Sitemap: https://ccbaumler.github.io/simple-quarto-presentation-template/sitemap.xml
+Sitemap: https://ccbaumler.github.io/2026-quick-lit-management/sitemap.xml
