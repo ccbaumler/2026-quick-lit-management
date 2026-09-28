@@ -1,0 +1,1 @@
+Sitemap: https://ccbaumler.github.io/simple-quarto-presentation-template/sitemap.xml
