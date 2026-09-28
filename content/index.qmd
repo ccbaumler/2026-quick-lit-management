@@ -1,0 +1,221 @@
+---
+title: "My Quarto Presentation Template"
+subtitle: "Modern slides with code, diagrams, and math"
+author: 
+  - name: Colton Baumler
+    orcid: 0000-0002-5926-7792
+    email: ccbaumler@ucdavis.edu
+    affiliations: University of California, Davis
+date: last-modified
+date-format: "dddd, [the] D[<sup style='font-size:65%;font-style:italic;'>th</sup>] [of] MMMM, YYYY"
+format:
+  revealjs:
+    theme: [custom-light.scss]
+    logo: "fig/logo.svg"
+    footer: "Data Intensive Biology Lab"
+    chalkboard: 
+      buttons: false
+    transition: fade
+    transition-speed: fast
+    slide-number: c/t
+    preview-links: false
+    code-fold: false
+    incremental: true
+    auto-animate-easing: ease-in-out
+    auto-animate-unmatched: true
+    auto-animate-duration: 0.8
+    menu:
+      side: left
+      width: half
+    highlight-style: github-light
+    title-slide-attributes:
+      data-background-gradient: "radial-gradient(at 87% 87%, #eb4775 0px, transparent 50%),
+                                radial-gradient(at 6%  99%, #eb6b47 0px, transparent 50%),
+                                radial-gradient(at 76% 4%,  #ebbd47 0px, transparent 50%),
+                                radial-gradient(at 35% 44%, #47ebbd 0px, transparent 50%),
+                                radial-gradient(at 86% 45%, #4775eb 0px, transparent 50%)" 
+from: markdown+emoji
+resources:
+  - fig/
+---
+
+## Features
+
+:::{.notes}
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+https://jamesgoldie.dev/writing/stack-gradients-in-r/
+https://www.whocanuse.com
+
+:::
+
+This template includes everything you need for technical presentations:
+
+- Modern styling with Inter font
+- Syntax-highlighted code blocks
+- Mermaid diagrams
+- LaTeX math equations
+- Responsive tables
+- Callout boxes
+- Speaker notes
+
+::: {.notes}
+Press **S** to open speaker view with notes and timer.
+:::
+
+## Code Blocks
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load and process data
+df = pd.read_csv("data.csv")
+summary = df.groupby("category").agg({
+    "value": ["mean", "std", "count"]
+})
+
+# Visualize results
+summary.plot(kind="bar", figsize=(10, 6))
+plt.title("Category Summary")
+plt.tight_layout()
+plt.savefig("output.png")
+```
+
+## Data Pipeline
+
+```{mermaid}
+%%| fig-width: 9
+flowchart LR
+    A[Source Data] --> B[Extract]
+    B --> C[Transform]
+    C --> D[Load]
+    D --> E[(Data Warehouse)]
+    E --> F[Analytics]
+    E --> G[Dashboards]
+```
+
+## Sequence Diagram
+
+```{mermaid}
+sequenceDiagram
+    participant U as User
+    participant A as API
+    participant D as Database
+
+    U->>A: Request data
+    A->>D: Query
+    D-->>A: Results
+    A-->>U: JSON response
+```
+
+## Mathematics
+
+Inline equations work naturally: $E = mc^2$
+
+Display equations for complex formulas:
+
+$$
+\mathcal{L} = -\frac{1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}(i\gamma^\mu D_\mu - m)\psi
+$$
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+## Two Columns
+
+### Multi-column
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### Benefits
+
+- Side-by-side comparisons
+- Text alongside visuals
+- Efficient use of space
+- Clear organization
+:::
+
+::: {.column width="50%"}
+#### Metrics
+
+| Metric | Value |
+|--------|------:|
+| Users | 12,450 |
+| Sessions | 45,230 |
+| Conversion | 3.2% |
+| Revenue | $84K |
+:::
+
+::::
+
+## Callouts
+
+::: {.callout-note}
+Callouts help important information stand out from the rest of your content.
+:::
+
+::: {.callout-tip}
+### Keyboard Shortcuts
+Press **F** for fullscreen, **O** for overview, **S** for speaker notes.
+:::
+
+::: {.callout-warning}
+Always test your presentation in the browser you'll use for presenting.
+:::
+
+## Step-by-Step Reveal
+
+Content can appear incrementally:
+
+::: {.incremental}
+- First, introduce your concept
+- Then, add supporting details
+- Finally, summarize key points
+:::
+
+This keeps your audience focused on one idea at a time.
+
+## Comparison Table
+
+| Feature | Basic | Pro | Enterprise |
+|---------|:-----:|:---:|:----------:|
+| Projects | 3 | 25 | Unlimited |
+| Storage | 1 GB | 50 GB | 500 GB |
+| API Access | - | Limited | Full |
+| Support | Community | Email | Dedicated |
+| SSO | - | - | Yes |
+
+## Images
+
+![Sample visualization from Unsplash](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop){fig-align="center"}
+
+## Quotes
+
+> The best way to predict the future is to invent it.
+>
+> --- Alan Kay
+
+Use blockquotes for citations, testimonials, or emphasis.
+
+## Get Started
+
+### Quick Setup
+
+1. Click **Use this template** on GitHub
+2. Clone your repository locally
+3. Edit `content/index.qmd`
+4. Run `make devel` to preview
+5. Run `make deploy` to publish
+
+### Resources
+
+- [Quarto RevealJS Docs](https://quarto.org/docs/presentations/revealjs/)
+- [Mermaid Diagram Syntax](https://mermaid.js.org/)
+- [LaTeX Math Reference](https://katex.org/docs/supported.html)
