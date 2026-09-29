@@ -6,11 +6,14 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Colton Baumler">
-  <title>Presentation – My Quarto Presentation Template</title>
+  <title>Presentation – The Modern, Practical Scholar</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -101,7 +104,9 @@
     code span.vs { color: #032f62; } /* VerbatimString */
     code span.wa { color: #ff5555; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-c1fb535e13f10afd997e2059ba0779a2.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-5a41bf26a3b70e4bdbdd8acb0f87fc71.css">
+  <link rel="stylesheet" href="timer.css">
+  <link rel="stylesheet" href="scientific-knowledge.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -196,6 +201,8 @@
       margin-right: 0; 
     }
   </style>
+  <script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+  <link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
   <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
   <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
   <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
@@ -205,8 +212,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-gradient="radial-gradient(at 87% 87%, #eb4775 0px, transparent 50%), radial-gradient(at 6% 99%, #eb6b47 0px, transparent 50%), radial-gradient(at 76% 4%, #ebbd47 0px, transparent 50%), radial-gradient(at 35% 44%, #47ebbd 0px, transparent 50%), radial-gradient(at 86% 45%, #4775eb 0px, transparent 50%)" class="quarto-title-block center">
-  <h1 class="title">My Quarto Presentation Template</h1>
-  <p class="subtitle">Modern slides with code, diagrams, and math</p>
+  <h1 class="title">The Modern, Practical Scholar</h1>
+  <p class="subtitle">The quick version!</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -222,13 +229,32 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
     </div>
 </div>
 
-  <p class="date">Monday, the 28<sup style="font-size:65%;font-style:italic;">th</sup> of September, 2026</p>
+  <p class="date">Tuesday, the 29<sup style="font-size:65%;font-style:italic;">th</sup> of September, 2026</p>
 </section>
-<section id="features" class="slide level2">
-<h2>Features</h2>
+<section>
+<section id="section" class="title-slide slide level1 center" data-menu-title="Big Picture!">
+<h1></h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br> <br> <br> <br> <br></p>
+<p><span class="center-xy" style="font-size:3em;"><strong>Big Picture!</strong></span></p>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><img data-src="./fig/rss-overview.svg"></p>
+</div>
+<div class="fragment">
+<p><img data-src="./fig/rfm-overview.svg"></p>
+</div>
+<div class="fragment">
+<p><img data-src="./fig/ba-overview.svg"></p>
+</div>
+</div></div>
+</section>
+<section id="a-foundation-is-key-to-pushing-boundaries" class="slide level2">
+<h2>A foundation is key to pushing boundaries</h2>
+<h3 id="background">Background</h3>
 <aside class="notes">
-<p>execute: echo: false warning: false message: false</p>
-<p>https://jamesgoldie.dev/writing/stack-gradients-in-r/ https://www.whocanuse.com</p>
+<p>The inherently unstructured nature of graduate school is a big hurdle to pushing the boundary of what is know - there is no guide</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -240,18 +266,136 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-<p>This template includes everything you need for technical presentations:</p>
+<div class="columns">
+<p>Graduate school</p><div class="column" style="width:75%;">
 <ul>
-<li class="fragment">Modern styling with Inter font</li>
-<li class="fragment">Syntax-highlighted code blocks</li>
-<li class="fragment">Mermaid diagrams</li>
-<li class="fragment">LaTeX math equations</li>
-<li class="fragment">Responsive tables</li>
-<li class="fragment">Callout boxes</li>
-<li class="fragment">Speaker notes</li>
+<li class="fragment">Understand what is known across a domain</li>
+<li class="fragment">Identify and explain something that is unknown (Preferably, coherently)</li>
+<li class="fragment">Ultimately, unstructured with many possible options</li>
 </ul>
+</div><div class="column" style="width:25%;">
+
+</div></div>
+<div class="absolute" style="top: 10%; right: 100px; ">
+<div class="simple-sci-know">
+<input type="checkbox" id="circle-toggle"> <label for="circle-toggle" class="circle">All Scientific Knowledge</label>
+<div class="red-circle">
+
+</div>
+</div>
+</div>
+<div class="absolute" style="left: 0px; bottom: 0px; ">
+<div class="wavy-sci-know">
+<input type="checkbox" id="toggle-circle"> <label for="toggle-circle" class="wavy-circle">All Scientific Knowledge</label>
+<div class="red-circle">
+
+</div>
+</div>
+</div>
+</section>
+<section id="improve-personal-professional-care-with-systematic-approaches" class="slide level2">
+<h2><span class="small">Improve personal professional care with systematic approaches</span></h2>
+<h3 id="background-1">Background</h3>
+<div class="columns">
+<div class="column">
+<div class="r-stack">
+<div class="fragment">
+<p>Feelings of:</p>
+<div class="smaller">
+<ul>
+<li>guilt</li>
+<li>all-consuming prioritization</li>
+<li>wealth disparity</li>
+<li>depression</li>
+<li>anxiety</li>
+<li>stupidity</li>
+<li>uncertainty and disconnection (I.e. Lost)</li>
+<li>urgency and pressure (I.e. time slipping away</li>
+<li>regret</li>
+<li>stress</li>
+<li>isolation</li>
+</ul>
+</div>
+</div>
+<div class="fragment remove-on-next">
+<p>Solutions?</p>
+<ul>
+<li class="fragment"><a href="https://smea.uw.edu/currents/managing-graduate-school-with-depression/" target="_blank">grin and bear it</a></li>
+<li class="fragment">too general to fully address the scope</li>
+</ul>
+</div>
+</div>
+</div><div class="column">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="./fig/graduate-school-mental-health.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Navigating mental health challenges in graduate school"><img data-src="./fig/graduate-school-mental-health.png" alt="Navigating mental health challenges in graduate school"></a></p>
+<figcaption><a href="https://www.nature.com/articles/s41578-022-00444-x.pdf" class="smaller">Navigating mental health challenges in graduate school</a></figcaption>
+</figure>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="centralizing-literature" class="title-slide slide level1 center">
+<h1>Centralizing Literature</h1>
+
+<img data-src="./fig/rss-overview.svg" class="r-stretch"></section>
+<section id="rss-is-a-web-based-aggregation-tool" class="slide level2">
+<h2>RSS is a web-based aggregation tool</h2>
+<h3 id="background-2">Background</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment"><p>What does RSS stand for?</p>
+<ul>
+<li class="fragment">Conflicting accounts!
+<ul>
+<li class="fragment"><strong><u>R</u></strong>eally <strong><u>S</u></strong>imple <strong><u>S</u></strong>yndication</li>
+<li class="fragment"><strong><u>R</u></strong>ich <strong><u>S</u></strong>ite <strong><u>S</u></strong>ummary</li>
+<li class="fragment"><strong><u>R</u></strong>DF <strong><u>S</u></strong>ite <strong><u>S</u></strong>ummary</li>
+</ul></li>
+<li class="fragment">RSS <span class="math inline">\(\equiv\)</span> a website feed aggregator</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment"><p>What <strong><em>is</em></strong> RSS though?</p>
+<ul>
+<li class="fragment">Set of technical standards
+<ul>
+<li class="fragment">A standard, computer-readable format</li>
+</ul></li>
+<li class="fragment">Written in extensible mark-up language (XML)</li>
+<li class="fragment">For storing and sending data through the internet</li>
+</ul></li>
+</ul>
+</div></div>
+<p><span class="fragment"><strong>An updating scientific journal website aggregation system!</strong></span></p>
+</section>
+<section id="an-rss-aggregator-will-centralize-all-feeds-across-devices" class="slide level2">
+<h2><span style="font-size:0.70em;">An RSS aggregator will centralize all feeds across devices</span></h2>
+<h3 id="background-3">Background</h3>
+<p>The day an important article is published you will be able to find it!</p>
+<ul>
+<li class="fragment">Single concentrated reference point
+<ul>
+<li class="fragment">Track <strong>many</strong> different websites</li>
+<li class="fragment">Regular updates (~1-6hrs)</li>
+<li class="fragment">Convenient
+<ul>
+<li class="fragment">Desktop</li>
+<li class="fragment">Mobile</li>
+<li class="fragment">Tablet</li>
+<li class="fragment">Browser</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="too-many-software-options" class="slide level2">
+<h2><span style="font-size:0.80em;">Too many software options!!!</span></h2>
+<h3 id="background-4">Background</h3>
 <aside class="notes">
-<p>Press <strong>S</strong> to open speaker view with notes and timer.</p>
+<p>The goal is not to become a poweruser!!!</p>
+<p>This serves a focused purpose and it does that well.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -263,252 +407,2454 @@ Colton Baumler <a href="https://orcid.org/0000-0002-5926-7792" class="quarto-tit
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<p><a href="https://play.google.com/store/search?q=rss+feed+app" target="_blank">There are dozens of notable RSS readers.</a></p>
+<p><span class="fragment">Most have a pay-tiered system.</span></p>
+<ul>
+<li class="fragment"><p>I suggest Inoreader… currently</p>
+<ul>
+<li class="fragment">Most useful options at unpaid subscription level are:
+<ul>
+<li class="fragment">Compatible with IOS, Andriod, and the Web</li>
+<li class="fragment">Organizing with folders and tags</li>
+<li class="fragment">Highlighting keywords</li>
+<li class="fragment">Ability to search</li>
+</ul></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="install-and-set-up" class="title-slide slide level1 center">
+<h1>Install and Set Up</h1>
+<ul>
+<li>Install Inoreader</li>
+<li>Find academic journal feeds</li>
+<li>Organize feeds</li>
+</ul>
 </section>
-<section id="code-blocks" class="slide level2">
-<h2>Code Blocks</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a aria-label="1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2"><a aria-label="2"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a aria-label="3"></a></span>
-<span id="cb1-4"><a aria-label="4"></a><span class="co"># Load and process data</span></span>
-<span id="cb1-5"><a aria-label="5"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"data.csv"</span>)</span>
-<span id="cb1-6"><a aria-label="6"></a>summary <span class="op">=</span> df.groupby(<span class="st">"category"</span>).agg({</span>
-<span id="cb1-7"><a aria-label="7"></a>    <span class="st">"value"</span>: [<span class="st">"mean"</span>, <span class="st">"std"</span>, <span class="st">"count"</span>]</span>
-<span id="cb1-8"><a aria-label="8"></a>})</span>
-<span id="cb1-9"><a aria-label="9"></a></span>
-<span id="cb1-10"><a aria-label="10"></a><span class="co"># Visualize results</span></span>
-<span id="cb1-11"><a aria-label="11"></a>summary.plot(kind<span class="op">=</span><span class="st">"bar"</span>, figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
-<span id="cb1-12"><a aria-label="12"></a>plt.title(<span class="st">"Category Summary"</span>)</span>
-<span id="cb1-13"><a aria-label="13"></a>plt.tight_layout()</span>
-<span id="cb1-14"><a aria-label="14"></a>plt.savefig(<span class="st">"output.png"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="create-an-account" class="slide level2 scrollable" data-menu-title="Create an account: Step 1">
+<h2>Create an account</h2>
+<h3 id="install-and-set-up-1">Install and Set Up</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li>Go to <a href="https://www.inoreader.com/" target="_blank">Inoreader</a></li>
+</ol>
+</div><div class="column">
+<p><span class="absolute" style="top: 400px; left: 200px; width: 500px; "><a href="./fig/go_to_inoreader.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="./fig/go_to_inoreader.svg"></a></span></p>
+</div></div>
 </section>
-<section id="data-pipeline" class="slide level2">
-<h2>Data Pipeline</h2>
-<div class="cell" data-reveal="true" data-fig-width="9" data-layout-align="default">
+<section id="create-an-account-1" class="slide level2 scrollable" data-menu-title="Create an account: Step 2">
+<h2>Create an account</h2>
+<h3 id="install-and-set-up-2">Install and Set Up</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li><span class="op">Go to <a href="https://www.inoreader.com/">Inoreader</a></span></li>
+<li>Select <code>Create account</code></li>
+</ol>
+</div><div class="column">
+<p><span class="absolute" style="top: 400px; left: 200px; width: 500px; "><a href="./fig/create_account.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="./fig/create_account.svg"></a></span></p>
+</div></div>
+</section>
+<section id="create-an-account-2" class="slide level2 scrollable" data-menu-title="Create an account: Step 3">
+<h2>Create an account</h2>
+<h3 id="install-and-set-up-3">Install and Set Up</h3>
+<div class="columns">
+<div class="{column}">
+<ol type="1">
+<li><span class="op">Go to <a href="https://www.inoreader.com/">Inoreader</a></span></li>
+<li><span class="op">Select <code>Create account</code></span></li>
+<li>Fill in email and password</li>
+<li>Select <code>Create account</code></li>
+</ol>
+</div><div class="column">
+<p><span class="absolute" style="top: 400px; left: 200px; width: 500px; "><a href="./fig/create_account_popup.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="./fig/create_account_popup.svg"></a></span></p>
+</div></div>
+</section>
+<section id="optionally-download-the-mobile-app" class="slide level2">
+<h2>Optionally, download the mobile app</h2>
+<h3 id="install-and-set-up-4">Install and Set Up</h3>
+<aside class="notes">
+<p>for local image as badges</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<ul>
+<li class="fragment">Benefits
+<ul>
+<li class="fragment">Portability</li>
+<li class="fragment">Interoperability</li>
+<li class="fragment">Make doom scrolling productive</li>
+</ul></li>
+</ul>
+<p><span class="fragment">Click your system below:</span></p>
+<style>
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-container .badge {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.badge-container .badge img {
+    height: 100px;
+    width: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.badge-container .badge img:hover {
+    transform: scale(1.25);
+}
+</style>
+
+<div class="badge-container">
+
+  <div class="badge">
+    <a href="https://play.google.com/store/apps/details?id=com.innologica.inoreader&amp;pcampaignid=web_share" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Button" style="height: 60px; width: auto; border-radius: 8px; transition: transform 0.2s ease;">
+    </a>
+  </div>
+  
+  <div class="badge">
+    <a href="https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414" target="_blank">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 60px; width: auto; border-radius: 8px; transition: transform 0.2s ease;">
+    </a>
+  </div>
+
+</div>
+</section>
+<section id="optionally-install-a-browser-extension" class="slide level2">
+<h2>Optionally, install a browser extension</h2>
+<h3 id="install-and-set-up-5">Install and Set Up</h3>
+<ul>
+<li>Benefits
+<ul>
+<li>Portability</li>
+<li>Interoperability</li>
+<li>Make doom scrolling productive</li>
+</ul></li>
+</ul>
+<p>Click your system below:</p>
+<div class="badge-container">
+    <div class="badge">
+        <a href="https://chrome.google.com/webstore/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah" target="_blank">
+            <img src="./fig/Google_Chrome_icon_(February_2022)_wikimedia.png" alt="Get it on Google Chrome">
+        </a>
+    </div>
+    <div class="badge">
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/rss-reader-extension-inoreader/" target="_blank">
+            <img src="./fig/Firefox_logo_2019_wikimedia.png" alt="Get it on Firefox">
+        </a>
+    </div>
+    <div class="badge">
+        <a href="https://microsoftedge.microsoft.com/addons/detail/rss-reader-extension-by-/lbjfhdjlblncekgomhadnnpampcahhal" target="_blank">
+            <img src="./fig/Microsoft_Edge_logo_wikimedia.svg" alt="Get it on Microsoft Edge">
+        </a>
+    </div>
+</div>
+</section>
+<section id="quick-guide-to-curate-feeds-in-inoreader" class="slide level2 scrollable" data-menu-title="Curate feeds: Step 1">
+<h2>Quick guide to curate feeds in Inoreader</h2>
+<h3 id="install-and-set-up-6">Install and Set Up</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li>Select <code>Add new</code></li>
+</ol>
+</div><div class="column" style="width:55%;">
+<p><span class="absolute" style="top: 125px; left: 475px; width: 700px; "><a href="./fig/add_feed.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="./fig/add_feed.png"></a></span></p>
+</div></div>
+</section>
+<section id="quick-guide-to-curate-feeds-in-inoreader-1" class="slide level2 scrollable" data-menu-title="Curate feeds: Step 2">
+<h2>Quick guide to curate feeds in Inoreader</h2>
+<h3 id="install-and-set-up-7">Install and Set Up</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <code>Add new</code></span></li>
+<li>Search a topic, website, or journal</li>
+</ol>
+</div><div class="column" style="width:55%;">
+<p><span class="absolute" style="top: 125px; left: 475px; width: 700px; "><a href="./fig/rss_search.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="./fig/rss_search.png"></a></span></p>
+</div></div>
+</section>
+<section id="quick-guide-to-curate-feeds-in-inoreader-2" class="slide level2 scrollable" data-menu-title="Curate feeds: Step 3">
+<h2>Quick guide to curate feeds in Inoreader</h2>
+<h3 id="install-and-set-up-8">Install and Set Up</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <code>Add new</code></span></li>
+<li><span class="op">Search a topic, website, or journal</span></li>
+<li>Select <code>Follow</code> from the feed suggestions</li>
+</ol>
+</div><div class="column" style="width:55%;">
+<p><span class="absolute" style="top: 125px; left: 475px; width: 700px; "><a href="./fig/follow_related.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="./fig/follow_related.png"></a></span></p>
+</div></div>
+</section>
+<section id="Gather_Feeds" class="slide level2">
+<h2>Gather feeds to fit your research interests</h2>
+<h3 id="install-and-set-up-9">Install and Set Up</h3>
+<aside class="notes">
+<p>go to science.com and scroll to the bottom</p>
+<p>click the rss symbol</p>
+<p>copy url of rss xml site and paste into inoreader</p>
+<p>wsj:thejournal (rss symbol)</p>
+<p>Use nature (rss feed), science (rss symbol), and biorxiv (specific set up) as examples</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="cell hidden">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="525" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 524;"><span id="cb1-525"><a aria-label="525"></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb1-526"><a aria-label="526"></a>  <span class="kw">let</span> userInput <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb1-527"><a aria-label="527"></a>  <span class="kw">let</span> words <span class="op">=</span> userInput<span class="op">.</span><span class="fu">split</span>(<span class="st">"-"</span>)<span class="op">;</span></span>
+<span id="cb1-528"><a aria-label="528"></a>  </span>
+<span id="cb1-529"><a aria-label="529"></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb1-530"><a aria-label="530"></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
+<span id="cb1-531"><a aria-label="531"></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
+<span id="cb1-532"><a aria-label="532"></a>  })<span class="op">;</span></span>
+<span id="cb1-533"><a aria-label="533"></a>  </span>
+<span id="cb1-534"><a aria-label="534"></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
+<span id="cb1-535"><a aria-label="535"></a>})<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display hidden">
+<div id="ojs-cell-1" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li class="fragment"><p>Journal options <img data-src="./fig/rss-solid.svg" width="15"></p>
+<ul>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/List_of_acadaemic_journals" target="_blank">Wiki of Academic Journals</a></li>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/List_of_scientific_journals" target="_blank">Wiki of Scientific Journals</a></li>
+<li class="fragment"><a href="https://www.scopus.com/sources" target="_blank">Scopus Journals</a></li>
+<li class="fragment"><a href="https://onesearch.nihlibrary.ors.nih.gov/discovery/jsearch?vid=01NIH_INST%3ANIH&amp;lang=en" target="_blank">The NIH Library of Journals</a></li>
+<li class="fragment"><a href="https://chatgpt.com">ChatGPT</a>: “what are the best journals for [bioinformatics] research?”</li>
+<li class="fragment"><a href="#/Finding_RSS_Links">Find RSS Links on a Website Supp.</a></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="interactive-textbox">
+<p><input type="text" id="userInput" placeholder="Type some ideas..."></p>
+<p id="outputText">
+</p>
+</div>
+</div></div>
+</section>
+<section id="organize-feeds-by-creating-folders" class="slide level2 scrollable" data-menu-title="Organize with new folders: Step 1">
+<h2>Organize feeds by creating folders</h2>
+<h3 id="install-and-set-up-10">Install and Set Up</h3>
+<p>Create new folder</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li>Select <span class="emoji" data-emoji="file_folder">📁</span> icon</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 125px; left: 475px; width: 700px; "><a href="./fig/folder-icon.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="./fig/folder-icon.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-creating-folders-1" class="slide level2 scrollable" data-menu-title="Organize with new folders: Step 2">
+<h2>Organize feeds by creating folders</h2>
+<h3 id="install-and-set-up-11">Install and Set Up</h3>
+<p>Create new folder</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="file_folder">📁</span> icon</span></li>
+<li>Write <code>Folder name</code></li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 125px; left: 575px; width: 500px; "><a href="./fig/create-folder.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="./fig/create-folder.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-creating-folders-2" class="slide level2 scrollable" data-menu-title="Organize with new folders: Step 3">
+<h2>Organize feeds by creating folders</h2>
+<h3 id="install-and-set-up-12">Install and Set Up</h3>
+<p>Create new folder</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="file_folder">📁</span> icon</span></li>
+<li><span class="op">Write <code>Folder name</code></span></li>
+<li>Begin searching for feeds</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 125px; left: 575px; width: 500px; "><a href="./fig/create-add-folder.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="./fig/create-add-folder.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-creating-folders-3" class="slide level2 scrollable" data-menu-title="Organize with new folders: Step 4">
+<h2>Organize feeds by creating folders</h2>
+<h3 id="install-and-set-up-13">Install and Set Up</h3>
+<p>Create new folder</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="file_folder">📁</span> icon</span></li>
+<li><span class="op">Write <code>Folder name</code></span></li>
+<li><span class="op">Begin searching for feeds</span></li>
+<li>Select feeds to add</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 125px; left: 575px; width: 500px; "><a href="./fig/create-add-folder.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="./fig/create-add-folder.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-adding-to-existing-folders" class="slide level2 scrollable" data-menu-title="Adding to existing folders: Step 1">
+<h2><span style="font-size:0.8em;">Organize feeds by adding to existing folders</span></h2>
+<h3 id="install-and-set-up-14">Install and Set Up</h3>
+<p>Add to existing</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li>Select <span class="emoji" data-emoji="gear">⚙️</span> icon</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 100px; left: 475px; width: 700px; "><a href="./fig/folder-icon.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="./fig/folder-icon.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-adding-to-existing-folders-1" class="slide level2 scrollable" data-menu-title="Adding to existing folders: Step 2">
+<h2><span style="font-size:0.8em;">Organize feeds by adding to existing folders</span></h2>
+<h3 id="install-and-set-up-15">Install and Set Up</h3>
+<p>Add to existing</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="gear">⚙️</span> icon</span></li>
+<li>Select folders dropdown</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 200px; left: 475px; width: 700px; "><a href="./fig/feed-content.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="./fig/feed-content.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-adding-to-existing-folders-2" class="slide level2 scrollable" data-menu-title="Adding to existing folders: Step 3">
+<h2><span style="font-size:0.8em;">Organize feeds by adding to existing folders</span></h2>
+<h3 id="install-and-set-up-16">Install and Set Up</h3>
+<p>Add to existing</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="gear">⚙️</span></span></li>
+<li><span class="op">Select folders dropdown</span></li>
+<li>Select <code>Without folder</code></li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 200px; left: 475px; width: 700px; "><a href="./fig/without-folders.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="./fig/without-folders.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-adding-to-existing-folders-3" class="slide level2 scrollable" data-menu-title="Adding to existing folders: Step 4">
+<h2><span style="font-size:0.8em;">Organize feeds by adding to existing folders</span></h2>
+<h3 id="install-and-set-up-17">Install and Set Up</h3>
+<p>Add to existing</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="gear">⚙️</span></span></li>
+<li><span class="op">Select folders dropdown</span></li>
+<li><span class="op">Select <code>Without folder</code></span></li>
+<li>Select feeds</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 200px; left: 475px; width: 700px; "><a href="./fig/add-to-new-old.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="./fig/add-to-new-old.png"></a></span></p>
+</div></div>
+</section>
+<section id="organize-feeds-by-adding-to-existing-folders-4" class="slide level2 scrollable" data-menu-title="Adding to existing folders: Step 5">
+<h2><span style="font-size:0.8em;">Organize feeds by adding to existing folders</span></h2>
+<h3 id="install-and-set-up-18">Install and Set Up</h3>
+<p>Add to existing</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<ol type="1">
+<li><span class="op">Select <span class="emoji" data-emoji="gear">⚙️</span></span></li>
+<li><span class="op">Select folders dropdown</span></li>
+<li><span class="op">Select <code>Without folder</code></span></li>
+<li><span class="op">Select feeds</span></li>
+<li>Select option from dropdown</li>
+</ol>
+</div><div class="column" style="width:65%;">
+<p><span class="absolute" style="top: 200px; left: 475px; width: 700px; "><a href="./fig/add-to-new-old.png" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="./fig/add-to-new-old.png"></a></span></p>
+</div></div>
+</section>
+<section id="make-your-folders-for-your-feeds" class="slide level2">
+<h2>Make your folders for your feeds</h2>
+<h3 id="install-and-set-up-19">Install and Set Up</h3>
+<div class="columns">
+<div class="column" style="width:75%;">
+<ul>
+<li class="fragment"><p>Consider grouping journals categories:</p>
+<ul>
+<li class="fragment">Broad
+<ul>
+<li class="fragment">interdisciplinary, high-impact factor</li>
+</ul></li>
+<li class="fragment">Topics
+<ul>
+<li class="fragment">Molecular Biology, Genetics, Bioinformatics</li>
+</ul></li>
+<li class="fragment">Time span they publish or you want to check
+<ul>
+<li class="fragment">Continuous, Weekly, Monthly, Quarterly, Annually</li>
+<li class="fragment"><a href="https://www.nature.com/nature/journal-information" target="_blank">“Nature is a weekly international journal”</a></li>
+</ul></li>
+<li class="fragment">Access
+<ul>
+<li class="fragment">Open access, Publisher, Preprints</li>
+</ul></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:25%;">
+<div class="interactive-textbox">
+<p><input type="text" id="userInput2" placeholder="Type some ideas..."></p>
+<p id="outputText2">
+</p>
+</div>
+</div></div>
+<div class="cell hidden">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="777" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 776;"><span id="cb2-777"><a aria-label="777"></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput2"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb2-778"><a aria-label="778"></a>  <span class="kw">let</span> userInput2 <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb2-779"><a aria-label="779"></a>  <span class="kw">let</span> words <span class="op">=</span> userInput2<span class="op">.</span><span class="fu">split</span>(<span class="st">"-"</span>)<span class="op">;</span></span>
+<span id="cb2-780"><a aria-label="780"></a>  </span>
+<span id="cb2-781"><a aria-label="781"></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb2-782"><a aria-label="782"></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
+<span id="cb2-783"><a aria-label="783"></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
+<span id="cb2-784"><a aria-label="784"></a>  })<span class="op">;</span></span>
+<span id="cb2-785"><a aria-label="785"></a>  </span>
+<span id="cb2-786"><a aria-label="786"></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText2"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
+<span id="cb2-787"><a aria-label="787"></a>})<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display hidden">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="suggested-usage" class="title-slide slide level1 center">
+<h1>Suggested Usage</h1>
+<ul>
+<li>The functionality of Inoreader
+<ul>
+<li>Highlighting keywords</li>
+<li>Tagging system</li>
+<li>Rapid navigation</li>
+<li>Search the feeds</li>
+</ul></li>
+</ul>
+</section>
+<section id="highlighting-keywords-for-efficient-literature-discovery" class="slide level2">
+<h2><span style="font-size:0.80em;">Highlighting keywords for efficient literature discovery</span></h2>
+<h3 id="suggested-usage-1">Suggested Usage</h3>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><span class="smaller">Assign color to keywords</span></p>
+<ul>
+<li class="fragment"><span class="smaller"><strong>Trouble? Try GenAI for a list:</strong></span>
+<ul>
+<li class="fragment"><span class="smaller">What are keywords for [microbial metagenomic metabolomic metabolite cancer] research?</span></li>
+<li class="fragment"><span class="smaller">Please expand this list further. (Generic or with direction…)</span></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:70%;">
+<iframe id="iframe1" width="780" height="500" src="./fig/highlighters.html" title="Inoreader highlighter" style="display: block; margin: 0 auto; position: relative; top: 50px; left: 0; right: 0;">
+</iframe>
+</div></div>
+</section>
+<section id="tags-articles-to-organize-and-recall" class="slide level2">
+<h2>Tags articles to organize and recall</h2>
+<h3 id="suggested-usage-2">Suggested Usage</h3>
+<aside class="notes">
+<ul>
+<li>Like the <code>Read later</code> category</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p><code>Library</code></p>
+<ul>
+<li class="fragment">Tag with keywords like:
+<ul>
+<li class="fragment">Topics: ProjectName, QE, Grant</li>
+<li class="fragment">Content: Video, peer, opinion, review</li>
+<li class="fragment">Resources: Github, scripts, references</li>
+<li class="fragment">Priority: High, medium, low</li>
+</ul></li>
+</ul>
+</section>
+<section id="navigating-literature-blazingly-fast-with-keybindings" class="slide level2">
+<h2><span style="font-size:0.80em;">Navigating literature blazingly fast with keybindings</span></h2>
+<h3 id="suggested-usage-3">Suggested Usage</h3>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><code>h</code> or <code>?</code> for keybindings</p>
+</div><div class="column" style="width:80%;">
+<iframe id="iframe2" width="780" height="500" src="./fig/hotkeys.html" title="Inoreader highlighter" style="display: block; margin: 0 auto; position: relative; top: 50px; left: 0; right: 0;">
+</iframe>
+</div></div>
+</section>
+<section id="navigating-literature-blazingly-fast-with-keybindings-1" class="slide level2">
+<h2><span style="font-size:0.80em;">Navigating literature blazingly fast with keybindings</span></h2>
+<h3 id="suggested-usage-4">Suggested Usage</h3>
+<div class="columns">
+<div class="column" style="width:75%;">
+<p>Below are some suggestions to speed-up your usage:</p>
+<ul>
+<li class="fragment"><code>n</code>, <code>p</code> or with <code>shift</code>: navigate the articles or side-bar</li>
+<li class="fragment"><code>j</code>, <code>k</code> : navigate the Article view or <code>space</code>: to scroll through the abstract</li>
+<li class="fragment"><code>m</code>, <code>f</code>: mark the articles as read or read later</li>
+<li class="fragment"><code>1</code>, <code>3</code>: change views from list to cards</li>
+<li class="fragment">use <code>v</code> to load a new tab or <code>w</code> to load the content</li>
+</ul>
+</div><div class="column" style="width:25%;">
+<div class="interactive-textbox">
+<p><input type="text" id="userInput3" placeholder="Type some ideas..."></p>
+<p id="outputText3">
+</p>
+</div>
+</div></div>
+<div class="cell hidden">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="891" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 890;"><span id="cb3-891"><a aria-label="891"></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"userInput3"</span>)<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"input"</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb3-892"><a aria-label="892"></a>  <span class="kw">let</span> userInput3 <span class="op">=</span> <span class="kw">this</span><span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb3-893"><a aria-label="893"></a>  <span class="kw">let</span> words <span class="op">=</span> userInput3<span class="op">.</span><span class="fu">split</span>(<span class="st">" "</span>)<span class="op">;</span></span>
+<span id="cb3-894"><a aria-label="894"></a>  </span>
+<span id="cb3-895"><a aria-label="895"></a>  <span class="kw">let</span> output <span class="op">=</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb3-896"><a aria-label="896"></a>  words<span class="op">.</span><span class="fu">forEach</span>(word <span class="kw">=&gt;</span> {</span>
+<span id="cb3-897"><a aria-label="897"></a>    output <span class="op">+=</span> <span class="vs">`&lt;li&gt;</span><span class="sc">${</span>word<span class="sc">}</span><span class="vs">&lt;/li&gt;`</span><span class="op">;</span></span>
+<span id="cb3-898"><a aria-label="898"></a>  })<span class="op">;</span></span>
+<span id="cb3-899"><a aria-label="899"></a>  </span>
+<span id="cb3-900"><a aria-label="900"></a>  <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"outputText3"</span>)<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;ul&gt;</span><span class="sc">${</span>output<span class="sc">}</span><span class="vs">&lt;/ul&gt;`</span><span class="op">;</span></span>
+<span id="cb3-901"><a aria-label="901"></a>})<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display hidden">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</section>
+<section id="search-the-feeds-for-rapid-rediscovery" class="slide level2">
+<h2>Search the feeds for rapid re/discovery</h2>
+<h3 id="suggested-usage-5">Suggested Usage</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Located at:</p>
+<ul>
+<li class="fragment">Upper right <span class="arrow">🢖</span> <span class="emoji" data-emoji="mag">🔍</span></li>
+<li class="fragment">Left-hand <span class="arrow">🢖</span> <span class="emoji" data-emoji="mag">🔍</span></li>
+<li class="fragment"><code>Add feed</code> <span class="arrow">🢖</span> <code>Monitor feed</code></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p>Straight-forward operation:</p>
+<ul>
+<li class="fragment">Search articles in feeds, folder, or tags</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Use boolean operators
+<ul>
+<li><code>AND</code></li>
+<li><code>OR</code></li>
+<li><code>NOT</code></li>
+<li><code>""</code></li>
+<li><code>()</code></li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+<aside class="notes">
+<p>Boolean operators are terms used to combine or exclude keywords in search queries to narrow down or broaden search results in a search engine. They are words like “AND,” “OR,” and “NOT” that help refine the search by specifying relationships between keywords.</p>
+<pre><code>AND: Narrows down the search by requiring both terms to be present in the results. For example, searching for "cats AND dogs" will return results that mention both cats and dogs.
+
+OR: Broadens the search, returning results that include either one or both of the specified terms. Searching for "cats OR dogs" will retrieve results mentioning either cats or dogs or both.
+
+NOT: Excludes specific terms from the search results. For instance, searching for "cats NOT dogs" will display results related to cats but exclude any that mention dogs.</code></pre>
+<p>These operators are useful for making searches more precise and tailored to your needs by including, excluding, or combining keywords in various ways.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section id="break" class="title-slide slide level1 center">
+<h1>Break!</h1>
+
+</section>
+
+<section>
+<section id="managing-literature" class="title-slide slide level1 center">
+<h1>Managing Literature</h1>
+
+<img data-src="./fig/rfm-overview.svg" class="r-stretch"></section>
+<section id="reference-management-software-lead-to-thriving-scholars" class="slide level2">
+<h2><span class="small">Reference Management Software Lead to Thriving Scholars</span></h2>
+<h3 id="background-5">Background</h3>
+<div class="quarto-layout-panel" data-layout="[[100], [50, 50]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<ul>
+<li class="fragment">What <em>is</em> RMS?
+<ul>
+<li class="fragment">Database of bibliographic records</li>
+<li class="fragment">Creator of bibliographic citations</li>
+<li class="fragment">Document and knowledge management
+<ul>
+<li class="fragment">Collection structure</li>
+<li class="fragment">Tags</li>
+<li class="fragment">Notetaking</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><span class="fragment">What influences choice?</span></p>
+</div>
+<div class="small quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ul>
+<li class="fragment">Campus educators (library, dept, etc.)</li>
+<li class="fragment">Teachers and Colleagues</li>
+<li class="fragment">But, Overall? Exposure!</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="scholars-want-the-easiest-tool-for-reference-management" class="slide level2 scrollable">
+<h2><span class="small">Scholars Want the Easiest Tool for Reference Management</span></h2>
+<h3 id="background-6">Background</h3>
+<div class="quarto-layout-panel" data-layout="[[70,30], [100]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="./fig/ref-manager-participate-ratings2.png"></p>
+<figcaption><span class="small">User-defined important parameters for RMS. Nitsos et al., 2022, p.&nbsp;105</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: flex-start;">
+<p><strong>Scholar needs?</strong></p>
+<ol type="1">
+<li class="fragment">Easy</li>
+<li class="fragment">Free</li>
+<li class="fragment">Friendly</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="zotero-is-free-open-source-community-driven-software" class="slide level2">
+<h2><span class="small">Zotero is <strong><em>Free</em></strong>, Open-source, <strong><em>Community-driven</em></strong> Software</span></h2>
+<h3 id="background-7">Background</h3>
+
+<img data-src="./fig/ref-manager-participate-ratings.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="small">Participant’s ratings of RMS. Cai et al., 2021, p.&nbsp;68</span></p><div class="fragment">
+<blockquote>
+<p>Zotero [zoh-TAIR-oh] is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources. - <a href="https://www.zotero.org/support/quick_start_guide" target="_blank">Zotero’s quick start guide</a></p>
+</blockquote>
+</div>
+</section></section>
+<section>
+<section id="install-setup" class="title-slide slide level1 center">
+<h1>Install &amp; Setup</h1>
+<ul>
+<li>Download Zotero</li>
+<li>Optimize Zotero Storage</li>
+<li>Extend Zotero for Knowledge Management</li>
+</ul>
+</section>
+<section id="benefits-of-a-web-account" class="slide level2" data-menu-title="Web account benefits: Storage">
+<h2>Benefits of a web account</h2>
+<h3 id="install-setup-1">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<h4 id="benefits">Benefits</h4>
+<ul>
+<li class="fragment"><span class="hovertext" data-hover="May store only metadata or use WebDav options as well" style="--hover-width: 250px;">Free 300 mb storage</span></li>
+</ul>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/zotero-storage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img data-src="./fig/zotero-storage.png"></a></span></p>
+</div></div>
+</section>
+<section id="benefits-of-a-web-account-1" class="slide level2" data-menu-title="Web account benefits: interoperability">
+<h2>Benefits of a web account</h2>
+<h3 id="install-setup-2">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<h4 id="benefits-1">Benefits</h4>
+<ul>
+<li><span class="hovertext" data-hover="May store only metadata or use WebDav options as well" style="--hover-width: 250px;">Free 300 mb storage</span></li>
+</ul>
+<ul>
+<li class="fragment">Access library anywhere with internet</li>
+<li class="fragment">Syncing and backup across all devices</li>
+<li class="fragment">Join shared collections with <a href="https://www.zotero.org/groups" target="_blank">Zotero groups</a></li>
+</ul>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/zotero-web-library.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img data-src="./fig/zotero-web-library.png"></a></span></p>
+</div></div>
+</section>
+<section id="create-a-web-account" class="slide level2 scrollable" data-menu-title="Web account creation: Step 1">
+<h2>Create a web account</h2>
+<h3 id="install-setup-3">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li class="fragment">Go to <a href="https://www.zotero.org/">zotero.org</a></li>
+</ol>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/zotero-home.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img data-src="./fig/zotero-home.png"></a></span></p>
+</div></div>
+</section>
+<section id="create-a-web-account-1" class="slide level2 scrollable" data-menu-title="Web account creation: Step 2">
+<h2>Create a web account</h2>
+<h3 id="install-setup-4">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li><span class="op">Go to <a href="https://www.zotero.org/">zotero.org</a></span></li>
+<li>Click <code>Log In</code></li>
+</ol>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/zotero-login-click.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img data-src="./fig/zotero-login-click.png"></a></span></p>
+</div></div>
+</section>
+<section id="create-a-web-account-2" class="slide level2 scrollable" data-menu-title="Web account creation: Step 3">
+<h2>Create a web account</h2>
+<h3 id="install-setup-5">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li><span class="op">Go to <a href="https://www.zotero.org/">zotero.org</a></span></li>
+<li><span class="op">Click <code>Log In</code></span></li>
+<li>Click <code>Register for a free account</code></li>
+</ol>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/zotero-login-register.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img data-src="./fig/zotero-login-register.png"></a></span></p>
+</div></div>
+</section>
+<section id="create-a-web-account-3" class="slide level2 scrollable" data-menu-title="Web account creation: Step 4">
+<h2>Create a web account</h2>
+<h3 id="install-setup-6">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li><span class="op">Go to <a href="https://www.zotero.org/">zotero.org</a></span></li>
+<li><span class="op">Click <code>Log In</code></span></li>
+<li><span class="op">Click <code>Register for a free account</code></span></li>
+<li>Fill out the info</li>
+</ol>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/Zotero-Register.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img data-src="./fig/Zotero-Register.png"></a></span></p>
+</div></div>
+</section>
+<section id="create-a-web-account-4" class="slide level2 scrollable" data-menu-title="Web account creation: Step 5">
+<h2>Create a web account</h2>
+<h3 id="install-setup-7">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li><span class="op">Go to <a href="https://www.zotero.org/">zotero.org</a></span></li>
+<li><span class="op">Click <code>Log In</code></span></li>
+<li><span class="op">Click <code>Register for a free account</code></span></li>
+<li><span class="op">Fill out the info</span></li>
+<li>Click <code>Register</code></li>
+</ol>
+</div><div class="column">
+<p><span data-fig-align="right"><a href="./fig/Zotero-Register-click.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img data-src="./fig/Zotero-Register-click.png"></a></span></p>
+</div></div>
+</section>
+<section id="download-zotero-for-your-operating-system" class="slide level2">
+<h2>Download Zotero for your Operating System</h2>
+<h3 id="install-setup-8">Install &amp; Setup</h3>
+<p>At <a href="https://www.zotero.org/download/">zotero.org/download</a></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<h4 id="details">Details</h4>
+<div class="fragment">
+<ul>
+<li>Mac</li>
+<li>Windows</li>
+<li>Linux</li>
+<li><a href="https://www.zotero.org/support/kb/installing_on_a_chromebook">Chromebook</a></li>
+<li><span class="hovertext" data-hover="May manually install over existing version without data loss" style="--hover-width: 250px;">Automatically updates</span></li>
+</ul>
+</div>
+</div><div class="column" style="width:60%;">
+<p><a href="./fig/zotero-download-os.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img data-src="./fig/zotero-download-os.png"></a></p>
+</div></div>
+</section>
+<section id="zotero-connector-in-browser-simplifies-storing-articles" class="slide level2">
+<h2><span class="small">Zotero Connector in browser simplifies storing articles</span></h2>
+<h3 id="install-setup-9">Install &amp; Setup</h3>
+<aside class="notes">
+<p>https://forums.zotero.org/discussion/76073/solved-zotero-connector-shortcut-conflict-with-firefox</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>At <a href="https://www.zotero.org/download/">zotero.org/download</a></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<h4 id="details-1">Details</h4>
+<div class="fragment">
+<ul>
+<li>Firefox (Recommended)</li>
+<li>Chrome</li>
+<li>Edge</li>
+<li>Safari</li>
+</ul>
+</div>
+</div><div class="column" style="width:60%;">
+<p><a href="./fig/zotero-connect-browser.png" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img data-src="./fig/zotero-connect-browser.png"></a></p>
+</div></div>
+</section>
+<section id="optionally-download-the-app" class="slide level2">
+<h2>Optionally, download the app</h2>
+<h3 id="install-setup-10">Install &amp; Setup</h3>
+<ul>
+<li class="fragment">Benefits
+<ul>
+<li class="fragment">Portability</li>
+<li class="fragment">interoperability</li>
+<li class="fragment">Gathering and managing on the go
+<ul>
+<li class="fragment"><code>Share</code> <span class="arrow">🢖</span> <code>Zotero app</code></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><span class="fragment">Click your operating system below:</span></p>
+<style>
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-container .badge {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.badge-container .badge img {
+    height: 100px;
+    width: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.badge-container .badge img:hover {
+    transform: scale(1.25);
+}
+</style>
+
+<div class="badge-container">
+
+  <div class="badge">
+<a href="https://play.google.com/store/apps/details?id=org.zotero.android" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play Button" style="height: 60px; width: auto; border-radius: 8px; transition: transform 0.2s ease;">
+    </a>
+  </div>
+  
+  <div class="badge">
+    <a href="https://apps.apple.com/us/app/zotero/id1513554812" target="_blank">
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height: 60px; width: auto; border-radius: 8px; transition: transform 0.2s ease;">
+    </a>
+  </div>
+
+</div>
+</section>
+<section id="downloading-plugins-to-extend-zoteros-abilities" class="slide level2">
+<h2><span class="small">Downloading plugins to extend Zotero’s abilities!</span></h2>
+<h3 id="install-setup-11">Install &amp; Setup</h3>
+<ul>
+<li class="fragment">Download the <code>.xpi</code> file for the version you want
+<ul>
+<li class="fragment">For Firefox, right-click and <code>Save Link As...</code>
+<ul>
+<li class="fragment">OR! Set the <code>Boolean</code> for <code>browser.altClickSave</code> to true at <code>about:config</code></li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<ul>
+<li><a href="https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero" target="_blank">Actions and Tags</a>
+<ul>
+<li><a href="https://github.com/windingwind/zotero-actions-tags/releases/latest" target="_blank">Latest Release</a></li>
+</ul></li>
+<li><a href="https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero" target="_blank">Actions and Tags</a>
+<ul>
+<li><a href="https://github.com/windingwind/zotero-actions-tags/releases/latest" target="_blank">Latest Release</a></li>
+</ul></li>
+<li><a href="https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero" target="_blank">Actions and Tags</a>
+<ul>
+<li><a href="https://github.com/windingwind/zotero-actions-tags/releases/latest" target="_blank">Latest Release</a></li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<ul>
+<li class="fragment"><a href="https://github.com/wileyyugioh/zotmoov#zotmoov" target="_blank">ZotMoov</a>
+<ul>
+<li class="fragment"><a href="https://github.com/wileyyugioh/zotmoov/releases/latest" target="_blank">Latest Release</a></li>
+</ul></li>
+<li class="fragment"><a href="https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero" target="_blank">Actions and Tags</a>
+<ul>
+<li class="fragment"><a href="https://github.com/windingwind/zotero-actions-tags/releases/latest" target="_blank">Latest Release</a></li>
+</ul></li>
+<li class="fragment"><a href="https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero" target="_blank">Actions and Tags</a>
+<ul>
+<li class="fragment"><a href="https://github.com/windingwind/zotero-actions-tags/releases/latest" target="_blank">Latest Release</a></li>
+</ul></li>
+</ul>
+</div>
+</div></div>
+</section>
+<section id="install-plugins-to-complete-zoteros-extenstion" class="slide level2 scrollable" data-menu-title="Installing plugins: Step 1">
+<h2><span class="small">Install plugins to complete Zotero’s extenstion</span></h2>
+<h3 id="install-setup-12">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="small">
+<ol type="1">
+<li>Open Zotero</li>
+</ol>
+</div>
+</div><div class="column" style="width:55%;">
+<p><a href="./fig/local-zotero.png" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img data-src="./fig/local-zotero.png"></a></p>
+</div></div>
+</section>
+<section id="install-plugins-to-complete-zoteros-extenstion-1" class="slide level2 scrollable" data-menu-title="Installing plugins: Step 2">
+<h2><span class="small">Install plugins to complete Zotero’s extenstion</span></h2>
+<h3 id="install-setup-13">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="small">
+<ol type="1">
+<li><span class="op">Open Zotero</span></li>
+<li>Select <code>Tools</code> <span class="arrow">🢖</span> <code>Plugins</code></li>
+</ol>
+</div>
+</div><div class="column" style="width:55%;">
+<p><a href="./fig/local-zotero-tools.png" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img data-src="./fig/local-zotero-tools.png"></a></p>
+</div></div>
+</section>
+<section id="install-plugins-to-complete-zoteros-extenstion-2" class="slide level2 scrollable" data-menu-title="Installing plugins: Step 3">
+<h2><span class="small">Install plugins to complete Zotero’s extenstion</span></h2>
+<h3 id="install-setup-14">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="small">
+<ol type="1">
+<li><span class="op">Open Zotero</span></li>
+<li><span class="op">Select <code>Tools</code> <span class="arrow">🢖</span> <code>Plugins</code></span></li>
+<li>Select the gear (<span class="emoji" data-emoji="gear">⚙️</span>) in the top-right corner</li>
+</ol>
+</div>
+</div><div class="column" style="width:55%;">
+<p><a href="./fig/plugins.png" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img data-src="./fig/plugins.png"></a></p>
+</div></div>
+</section>
+<section id="install-plugins-to-complete-zoteros-extenstion-3" class="slide level2 scrollable" data-menu-title="Installing plugins: Step 4">
+<h2><span class="small">Install plugins to complete Zotero’s extenstion</span></h2>
+<h3 id="install-setup-15">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="small">
+<ol type="1">
+<li><span class="op">Open Zotero</span></li>
+<li><span class="op">Select <code>Tools</code> <span class="arrow">🢖</span> <code>Plugins</code></span></li>
+<li><span class="op">Select the gear (<span class="emoji" data-emoji="gear">⚙️</span>) in the top-right corner</span></li>
+<li>Choose <code>Install Plugins From File…</code></li>
+</ol>
+</div>
+</div><div class="column" style="width:55%;">
+<p><a href="./fig/plugins-install.png" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img data-src="./fig/plugins-install.png"></a></p>
+</div></div>
+</section>
+<section id="install-plugins-to-complete-zoteros-extenstion-4" class="slide level2 scrollable" data-menu-title="Installing plugins: Step 5-8">
+<h2><span class="small">Install plugins to complete Zotero’s extenstion</span></h2>
+<h3 id="install-setup-16">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="small">
+<ol type="1">
+<li><span class="op">Open Zotero</span></li>
+<li><span class="op">Select <code>Tools</code> <span class="arrow">🢖</span> <code>Plugins</code></span></li>
+<li><span class="op">Select the gear (<span class="emoji" data-emoji="gear">⚙️</span>) in the top-right corner</span></li>
+<li><span class="op">Choose <code>Install Plugins From File…</code></span></li>
+<li>Choose <code>.xpi</code> files to install</li>
+<li>Select <code>Open</code></li>
+<li>Select <code>Install</code></li>
+<li>Restart Zotero</li>
+</ol>
+</div>
+</div><div class="column" style="width:55%;">
+
+</div></div>
+</section>
+<section id="configure-zotero-for-well-organized-storage" class="slide level2 scrollable">
+<h2><span class="small">Configure Zotero for well-organized storage</span></h2>
+<h3 id="install-setup-17">Install &amp; Setup</h3>
+<aside class="notes">
+<p>https://forums.zotero.org/discussion/83262/zotfile-move-web-snapshot-web-snapshot-and-cloud-storage https://github.com/jlegewie/zotfile/issues/566 https://ikashnitsky.phd/2019/zotero/ https://ikos-dighum.github.io/contents/betterbibtex/markdown_zotero.html</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="r-stack">
+<div style="margin: 0;">
+<div class="small">
+<ol type="1">
+<li class="fragment"><p>Go to <code>Edit</code> <span class="arrow">🢖</span> <code>Settings</code></p>
+<ul>
+<li class="fragment">For MacOS, it is <code>Zotero</code> <span class="arrow">🢖</span> <code>Settings</code> (?)</li>
+</ul>
+<p><span class="fragment absolute" style="bottom: 0px; width: 500px; "><a href="./fig/settings.png" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><img data-src="./fig/settings.png"></a></span></p></li>
+<li class="fragment"><p>Under <code>General</code> <span class="arrow">🢖</span> <code>File Handling</code></p></li>
+</ol>
+<p><span class="fragment absolute" style="bottom: 0px; right: 0px; width: 500px; "><a href="./fig/settings-general.png" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><img data-src="./fig/settings-general.png"></a></span></p>
+<ol start="3" type="1">
+<li class="fragment"><a href="https://www.zotero.org/support/file_renaming" target="_blank">Under <code>General</code> <span class="arrow">🢖</span> <code>File Renaming</code></a></li>
+</ol>
+<p><span class="fragment absolute" style="bottom: 0px; right: 0px; width: 500px; "><a href="./fig/setting-renaming.png" class="lightbox" data-gallery="quarto-lightbox-gallery-32"><img data-src="./fig/setting-renaming.png"></a></span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="backing-up-your-storage-to-the-web" class="slide level2 scrollable">
+<h2><span class="small">Backing up your storage to the web</span></h2>
+<h3 id="install-setup-18">Install &amp; Setup</h3>
+<div class="columns">
+<div class="column">
+<ol type="1">
+<li class="fragment">Under <code>Account</code> <span class="arrow">🢖</span> <code>Account</code> link your web account
+<ul>
+<li class="fragment">Under <code>Sync</code>
+<ul>
+<li class="fragment">Uncheck <code>Sync full-text content</code></li>
+</ul></li>
+<li class="fragment">Under <code>File syncing</code>
+<ul>
+<li class="fragment">Check <code>sync attachment files in my Library using</code> <span class="arrow">🢖</span> <code>WebDAV</code></li>
+<li class="fragment">Uncheck <code>Sync attachment files in group libraries using Zotero storage</code></li>
+</ul></li>
+</ul></li>
+</ol>
+</div><div class="column">
+<p><span class="fragment"><a href="./fig/settings-sync.png" class="lightbox" data-gallery="quarto-lightbox-gallery-33"><img data-src="./fig/settings-sync.png"></a></span></p>
+</div></div>
+</section>
+<section id="setting-up-free-storage" class="slide level2">
+<h2>Setting up free storage</h2>
+<h3 id="install-setup-19">Install &amp; Setup</h3>
+<p><a href="https://koofr.eu/blog/posts/koofr-with-zotero-via-webdav">Koofr + Zotero = 10 GB free cloud storage</a></p>
+<div style="display: flex; justify-content: center;">
+<p><iframe data-external="1" src="https://www.youtube.com/embed/a-1ndjGOu9Y" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> <iframe data-external="1" src="https://www.youtube.com/embed/S7BSlCOz3c0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+</div>
+</section>
+<section id="zotmoov-allows-automated-attachment-management" class="slide level2 scrollable">
+<h2><span class="small">ZotMoov allows automated attachment management!</span></h2>
+<h3 id="install-setup-20">Install &amp; Setup</h3>
+<div class="small">
+<ol type="1">
+<li class="fragment"><code>Directory to Move/Copy Files To</code> should be <strong><em>your library directory</em></strong></li>
+<li class="fragment"><code>File Behavior</code> change to <code>Copy</code></li>
+<li class="fragment"><a href="https://github.com/wileyyugioh/zotmoov/blob/master/docs/WILDCARD_INFO.md#zotmoov-wildcard-formatting" target="_blank">Set up your directory structure:</a>
+<ul>
+<li class="fragment">Nested <span class="arrow">🢖</span><code>{/%y}{/%F}</code><br>for <code>~/Year/First_Author</code><br>(e.g.&nbsp;<code>~/2014/ZutJ</code>)</li>
+<li class="fragment">Flattened <span class="arrow">🢖</span> <code>/{%y}_{%a}</code><br>for <code>~/Year_AuthorLastName</code><br>(e.g.&nbsp;<code>~/2014_Zut</code>)</li>
+</ul></li>
+</ol>
+<p><span class="fragment absolute" style="bottom: 0px; right: 0px; width: 575px; "><a href="./fig/settings-zotmoov.png" class="lightbox" data-gallery="quarto-lightbox-gallery-34"><img data-src="./fig/settings-zotmoov.png"></a></span></p>
+</div>
+</section>
+<section id="zotero-can-become-a-personal-web-archive" class="slide level2 scrollable">
+<h2>Zotero can become a personal web archive</h2>
+<h3 id="install-setup-21">Install &amp; Setup</h3>
+<ol type="1">
+<li class="fragment">Under <code>General</code> <span class="arrow">🢖</span> <code>File Handling</code></li>
+</ol>
+<p><span class="fragment"><a href="https://psyche.co/ideas/perplexed-embrace-it-confusion-is-a-symptom-of-learning" target="_blank">An Example</a></span></p>
+<p><span class="fragment absolute" style="bottom: 0px; right: 0px; width: 575px; "><a href="./fig/settings-webarchive-highlight.png" class="lightbox" data-gallery="quarto-lightbox-gallery-35"><img data-src="./fig/settings-webarchive-highlight.png"></a></span></p>
+</section>
+<section id="migrating-to-zotero-is-mostly-painless" class="slide level2">
+<h2>Migrating to Zotero is mostly painless</h2>
+<h3 id="install-setup-22">Install &amp; Setup</h3>
+<p>Follow the <a href="https://www.zotero.org/support/moving_to_zotero" target="_blank">instructions for any popular tool</a></p>
+<p><br><br></p>
+<div class="small">
+<blockquote>
+<p>You can also import from other tools, such as Reference Manager, RefWorks, Papers, Google Scholar Library, ReadCube, etc., by exporting to a standardized reference format, such as RIS, BibTeX, or CSL JSON, and then importing into Zotero by clicking File → “Import…” and choose “A file”.</p>
+</blockquote>
+</div>
+</section></section>
+<section>
+<section id="suggested-usage-6" class="title-slide slide level1 center">
+<h1>Suggested Usage</h1>
+<ul>
+<li>Organizing in multiple ways</li>
+<li>Efficiently using Zotero</li>
+<li>AI extensions</li>
+</ul>
+</section>
+<section id="a-simple-standard-directory-structure-is-easy-to-organize" class="slide level2">
+<h2><span class="small">A simple, standard directory structure is easy to organize</span></h2>
+<h3 id="suggested-usage-7">Suggested Usage</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li class="fragment">PARA
+<ul>
+<li class="fragment">Projects
+<ul>
+<li class="fragment">Short-term efforts</li>
+</ul></li>
+<li class="fragment">Areas
+<ul>
+<li class="fragment">Long-term efforts</li>
+</ul></li>
+<li class="fragment">Resources
+<ul>
+<li class="fragment">Topics of interest</li>
+</ul></li>
+<li class="fragment">Archives
+<ul>
+<li class="fragment">Inactive items from the other categories</li>
+</ul></li>
+</ul></li>
+</ul>
+</div><div class="column">
+<div class="vscroll">
+<div class="cell" data-fig-height="6.5" data-fig-width="3" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
-    A[Source Data] --&gt; B[Extract]
-    B --&gt; C[Transform]
-    C --&gt; D[Load]
-    D --&gt; E[(Data Warehouse)]
-    E --&gt; F[Analytics]
-    E --&gt; G[Dashboards]
-</pre>
+
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="a-simple-standard-directory-structure-is-easy-to-organize-1" class="slide level2">
+<h2><span class="small">A simple, standard directory structure is easy to organize</span></h2>
+<h3 id="suggested-usage-8">Suggested Usage</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li>PARA
+<ul>
+<li>Projects
+<ul>
+<li>Short-term efforts</li>
+</ul></li>
+<li>Areas
+<ul>
+<li>Long-term efforts</li>
+</ul></li>
+<li>Resources
+<ul>
+<li>Topics of interest</li>
+</ul></li>
+<li>Archives
+<ul>
+<li>Inactive items from the other categories</li>
+</ul></li>
+</ul></li>
+</ul>
+</div><div class="column">
+<div class="vscroll">
+<div class="cell" data-fig-height="16.5" data-fig-width="4.5" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="many-avenues-are-available-for-finding-you-documents" class="slide level2">
+<h2><span class="small">Many avenues are available for finding you documents</span></h2>
+<h3 id="suggested-usage-9">Suggested Usage</h3>
+<p>To gather attachments:</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li class="fragment">Base Zotero
+<ul>
+<li class="fragment">unpaywall</li>
+<li class="fragment">retraction watch</li>
+</ul></li>
+<li class="fragment">Zotero Connector
+<ul>
+<li class="fragment"><a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=zone+of+proximal+development&amp;btnG=&amp;oq=zone+of+">Database query</a> <span class="arrow">🢖</span> Click <span class="emoji" data-emoji="file_folder">📁</span></li>
+<li class="fragment"><a href="https://www.nature.com/articles/s41597-024-03571-y">Load article</a> or webpage <span class="arrow">🢖</span> Left or Right click item icon</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<ul>
+<li class="fragment">Bypass paywalls
+<ul>
+<li class="fragment"><a href="https://archive.ph/" target="_blank">archive.today</a></li>
+<li class="fragment"><a href="https://freedium.cfd/" target="_blank">Medium articles</a></li>
+<li class="fragment"><a href="https://www.reddit.com/r/Scholar/">Scholar subreddit</a></li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="including-headers-can-increase-note-organization" class="slide level2">
+<h2>Including headers can increase note organization</h2>
+<h3 id="suggested-usage-10">Suggested Usage</h3>
+<div class="columns">
+<div class="column">
+<p>Including the <code>Notes</code> column for quick reference:</p>
+<ul>
+<li class="fragment">Right-click column headers in any collection</li>
+<li class="fragment">Check <code>Notes</code></li>
+</ul>
+</div><div class="column">
+<p>Quick example of note taking and importing into text editor:</p>
+<ul>
+<li class="fragment">Open pdf in Zotero</li>
+<li class="fragment">Create annotations (<code>Alt+1</code> &amp; <code>Alt+3</code>)</li>
+<li class="fragment">Right-click item and <code>Add Note from Annotations</code></li>
+<li class="fragment">Open text editor</li>
+<li class="fragment">Import note</li>
+</ul>
+</div></div>
+</section>
+<section id="tags-are-incredible-for-organizing-with-visual-aids" class="slide level2 scrollable">
+<h2><span class="small">Tags are incredible for organizing with visual aids!</span></h2>
+<h3 id="suggested-usage-11">Suggested Usage</h3>
+<p>Use tags to mark all read and unread items:</p>
+<ol type="1">
+<li class="fragment">Add <span class="emoji" data-emoji="o">⭕</span> to an item in the <code>Tags</code> panel.</li>
+<li class="fragment">In the lower left panel, right click the tag <span class="arrow">🢖</span> <code>Assign Color...</code></li>
+<li class="fragment">Select a color and <code>Set color</code></li>
+<li class="fragment">Select all items and drop into the tag</li>
+</ol>
+<p>For automatic tagging, install the <a href="https://github.com/windingwind/zotero-actions-tags" target="_blank">Actions and Tags</a> addon</p>
+</section>
+<section id="for-increased-resolution-create-a-folksonomy-a-thesaurus-of-tags" class="slide level2">
+<h2><span style="font-size: 0.70em;">For increased resolution create a <strong><em>Folksonomy</em></strong>, a thesaurus of tags</span></h2>
+<h3 id="suggested-usage-12">Suggested Usage</h3>
+<div class="columns">
+<div class="column">
+<p>Why?</p>
+<ul>
+<li class="fragment">Individuals or groups will quickly find and re-find sources</li>
+<li class="fragment">Metadata is shared in groups
+<ul>
+<li class="fragment">Offers guidance to beginners</li>
+</ul></li>
+</ul>
+</div><div class="column">
+<p>How?</p>
+<ul>
+<li class="fragment">Think and create some keywords that capture the text contents</li>
+<li class="fragment">Skim abstracts and papers for keywords</li>
+<li class="fragment">Use bibliometrics or LLMs:
+<ul>
+<li class="fragment"><span class="small"><code>Create a folksonomy, or a thesaurus of tags, for [topics] studies.</code></span></li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="auto-curate-your-library-through-saved-searches" class="slide level2">
+<h2><span class="small">Auto-Curate your library through saved searches</span></h2>
+<h3 id="suggested-usage-13">Suggested Usage</h3>
+<aside class="notes">
+<p>A final organizational tool within Zotero is the saved searched. By creating curated searches new items will auto populate by well-defined rules set by the user. These saved searches allow a user to find the new items in both their Unfiled collection and their saved searches. All to allow the user more focused options when beginning their reading or writing tasks.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<ul>
+<li class="fragment">Start an advanced search:
+<ul>
+<li class="fragment">Click the <span class="emoji" data-emoji="mag">🔍</span></li>
+<li class="fragment">Click <code>Edit</code> <span class="arrow">🢖</span> <code>Advanced Search</code></li>
+<li class="fragment"><code>Ctrl+Shift+F</code></li>
+</ul></li>
+<li class="fragment">Define an area of continued interest</li>
+<li class="fragment">Using keywords in <code>All fields</code>, rapidly tag groups of items</li>
+</ul>
+</section>
+<section id="citing-and-bibliographies-are-simplified" class="slide level2">
+<h2>Citing and bibliographies are simplified</h2>
+<h3 id="suggested-usage-14">Suggested Usage</h3>
+<aside class="notes">
+<p>Paste the citations: <code>Ctrl+Shift+C</code> a Zotero item/s you have selected <span class="arrow">🢖</span> <code>Ctrl+v</code> in text editor</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="small">
+<ul>
+<li class="fragment">Google Docs for collabratory documents
+<ul>
+<li class="fragment">Open google doc: Open a google doc in the google drive you would like to sync to your Zotero library.</li>
+<li class="fragment">Link account: Integrate your google account with Zotero by clicking <code>Z</code> in the toolbar.
+<ul>
+<li class="fragment">Authenticate the Google account used to edit the document</li>
+</ul></li>
+</ul></li>
+<li class="fragment">Microsoft Word for local documents
+<ul>
+<li class="fragment">Open Word Doc: Open a word document…</li>
+<li class="fragment">Done?: There is now a Zotero tab in you document linked to your library!</li>
+</ul></li>
+<li class="fragment">Libre Office for local documents
+<ul>
+<li class="fragment">Open Libre Writer: Open a writer document…</li>
+<li class="fragment">Done?: There is now a Zotero toolbar in you document linked to your library!</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="extend-your-capabilities-with-addons-and-external-tools" class="slide level2">
+<h2><span class="small">Extend your capabilities with addons and external tools</span></h2>
+<h3 id="suggested-usage-15">Suggested Usage</h3>
+<div class="smaller">
+<p>Additional addons:</p>
+<ul>
+<li><a href="https://github.com/MuiseDestiny/zotero-reference" target="_blank">References</a></li>
+<li><a href="https://github.com/scitedotai/scite-zotero-plugin" target="_blank">Scite</a></li>
+<li><a href="https://github.com/bwiernik/zotero-shortdoi" target="_blank">DOI Manager</a></li>
+<li><a href="https://github.com/windingwind/zotero-better-notes#readme" target="_blank">Better Notes</a></li>
+<li><a href="https://github.com/windingwind/zotero-pdf-translate#readme" target="_blank">Translate</a></li>
+<li><a href="https://github.com/lifan0127/ai-research-assistant?tab=readme-ov-file#aria-aria---your-ai-research-assistant" target="_blank">An AI Assistant?</a></li>
+</ul>
+<p>Integrated external tools:</p>
+<ul>
+<li><a href="https://www.researchrabbit.ai/" target="_blank">Research Rabbit</a></li>
+</ul>
+<p>External tools:</p>
+<ul>
+<li><a href="https://www.semanticscholar.org/me/research">semantic scholar</a></li>
+<li><a href="https://www.connectedpapers.com/">connected papers</a></li>
+<li><a href="https://elicit.com/">elicit</a></li>
+<li><a href="https://www.qedscience.com/">QED</a></li>
+<li><a href="https://consensus.app/">Consensus</a></li>
+<li><a href="https://chatgpt.com/">ChatGPT</a></li>
+</ul>
+</div>
+</section></section>
+<section id="break-1" class="title-slide slide level1 center">
+<h1>Break!</h1>
+
+</section>
+
+<section>
+<section id="analyzing-literature" class="title-slide slide level1 center">
+<h1>Analyzing Literature</h1>
+
+<img data-src="./fig/ba-overview.svg" class="r-stretch"></section>
+<section id="bibliometrics-provides-an-accessible-framework-for-equitable-scholarship" class="slide level2">
+<h2><span class="smaller">Bibliometrics provides an accessible framework for equitable scholarship</span></h2>
+<h3 id="background-8">Background</h3>
+<p><a href="https://www.nature.com/articles/510218e" target="_blank">“[Bibliometrics is] The measurement of all aspects related to the publication and reading of books and documents.”</a></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment"><p><span class="fragment">Bibliometrics uses</span></p>
+<ul>
+<li class="fragment">Archival database</li>
+<li class="fragment">Article metadata</li>
+<li class="fragment">Statistical analysis</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li class="fragment"><p><span class="fragment">Bibliometrics answers</span></p>
+<ul>
+<li class="fragment">where the field has grown from</li>
+<li class="fragment">its most relevant articles</li>
+<li class="fragment">its emerging topics</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="bibliometrics-yields-networks-based-on-references" class="slide level2">
+<h2><span class="small">Bibliometrics yields networks based on references</span></h2>
+<h3 id="background-9">Background</h3>
+<p><span class="fragment">Bibliometrics can rapidly build your compentence in a domain</span></p>
+<p><span class="fragment">Bibliometrics can expose you to the techniques of a domain</span></p>
+<iframe data-external="1" src="https://www.youtube.com/embed/GW4s58u8PZo?start=158" width="1000" height="563" title="A network of science: 150 years of Nature papers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="minimize-your-time-confused-with-bibliometrics" class="slide level2">
+<h2><span style="font-size:0.80em;">Minimize your time confused with bibliometrics</span></h2>
+<h3 id="background-10">Background</h3>
+<ul>
+<li class="fragment">General bibliometric science yields:
+<ul>
+<li class="fragment">A solid foundation of the necessary concepts</li>
+<li class="fragment">The questions answered by the field</li>
+<li class="fragment">Some open areas of discovery within the field</li>
+</ul></li>
+<li class="fragment">My proposed use of a bibliometric framework
+<ul>
+<li class="fragment">Use <strong>reproducible</strong> methods</li>
+<li class="fragment">for <strong>systematic</strong> evaluation</li>
+<li class="fragment">in a <strong>quantifiable</strong> way!</li>
+<li class="fragment">Ultimately, ending with justifiable literature for your needs</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="databases" class="title-slide slide level1 center">
+<h1>Databases</h1>
+<ul>
+<li>Basics of literature search
+<ul>
+<li>Which databases to use</li>
+<li>Searching techniques</li>
+<li>Sample size</li>
+<li>Exporting search metadata</li>
+<li>Filtration techniques</li>
+</ul></li>
+</ul>
+</section>
+<section id="your-database-choice-will-affect-your-results" class="slide level2">
+<h2><span style="font-size:0.80em">Your database choice <strong><em>will</em></strong> affect your results</span></h2>
+<h3 id="databases-1">Databases</h3>
+<aside class="notes">
+<p><a href="https://direct.mit.edu/qss/article/2/1/20/97574/Large-scale-comparison-of-bibliographic-data">Each database has its benefits and drawbacks</a>, but scopus and web of science are the competing standard. They also have the best metadata curation for our analysis</p>
+<p>https://paperpile.com/g/academic-research-databases/</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>Databases focus on different levels of content selection, curation, and comprehensiveness.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Web of Science (WoS)</li>
+<li>Scopus</li>
+<li>PubMed</li>
+<li>Dimensions</li>
+<li>CrossRef</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div data-id="text">
+<ul>
+<li>Semantic Scholar</li>
+<li>Microsoft Academic</li>
+<li>Lens.org</li>
+<li>Cochran Library</li>
+<li>Google Scholar</li>
+</ul>
+</div>
+</div></div>
+<p><span class="smaller"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1420322/" target="_blank">“Scopus and WoS compliment each others as neither resource is all inclusive”</a></span></p>
+</section>
+<section id="your-database-choice-will-affect-your-results-1" class="slide level2">
+<h2><span style="font-size:0.80em">Your database choice <strong><em>will</em></strong> affect your results</span></h2>
+<h3 id="databases-2">Databases</h3>
+<aside class="notes">
+<p><a href="https://direct.mit.edu/qss/article/2/1/20/97574/Large-scale-comparison-of-bibliographic-data" target="_blank">Each database has its benefits and drawbacks</a>, but scopus and web of science are the competing standard. They also have the best metadata curation for our analysis</p>
+<p>https://paperpile.com/g/academic-research-databases/</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>Databases focus on different levels of content selection, curation, and comprehensiveness.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Web of Science (WoS)</strong></li>
+<li><strong>Scopus</strong></li>
+<li><strong>PubMed</strong></li>
+<li><span class="op" style="font-size: 0.75em">Dimensions</span></li>
+<li><span class="op" style="font-size: 0.75em">CrossRef</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="op" style="font-size: 0.75em">
+<ul>
+<li>Semantic Scholar</li>
+<li>Microsoft Academic</li>
+<li>Lens.org</li>
+<li>Cochran Library</li>
+<li>Google Scholar</li>
+</ul>
+</div>
+</div></div>
+<p><span class="smaller"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1420322/" target="_blank">“Scopus and WOS compliment each others as neither resource is all inclusive”</a></span></p>
+</section>
+<section id="signing-up-search-and-exporting-can-be-nuianced" class="slide level2">
+<h2><span class="small">Signing up, search and exporting can be nuianced</span></h2>
+<h3 id="databases-3">Databases</h3>
+<ul>
+<li class="fragment">Register with university email for Scopus and WoS access when off university wifi/<a href="https://library.ucdavis.edu/vpn/">library VPN</a>
+<ul>
+<li class="fragment">PubMed does not require registration at all</li>
+</ul></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:33%;">
+<ul>
+<li class="fragment"><ul>
+<li class="fragment"><a href="https://www.scopus.com/search/form.uri?display=basic#basic" target="_blank">Scopus</a> <span class="smaller">(Multidisciplinary)</span>
+<ul>
+<li class="fragment">82.4 million records</li>
+<li class="fragment">1788 – present</li>
+<li class="fragment">bibtex</li>
+<li class="fragment">full record</li>
+<li class="fragment">20,000 export limit</li>
+</ul></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li class="fragment"><ul>
+<li class="fragment"><a href="https://www.webofscience.com/wos/woscc/basic-search" target="_blank">WoS</a> <span class="smaller">(Multidisciplinary)</span>
+<ul>
+<li class="fragment">Core, 79 million</li>
+<li class="fragment">1900 - present</li>
+<li class="fragment">plaintext or bibtex</li>
+<li class="fragment">custom selection</li>
+<li class="fragment">1000 export limit</li>
+</ul></li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li class="fragment"><ul>
+<li class="fragment"><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a> <span class="smaller">(Only life science and biomedical)</span>
+<ul>
+<li class="fragment">35 million</li>
+<li class="fragment">1966 - present (*1809)</li>
+<li class="fragment">plaintext</li>
+<li class="fragment">pubmed format</li>
+<li class="fragment">10,000 export limit</li>
+</ul></li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="vocabulary-is-vital-for-a-good-search" class="slide level2 smaller">
+<h2>Vocabulary is vital for a good search!</h2>
+<h3 id="databases-4">Databases</h3>
+<p>controlled vocabulary thesaurus</p>
+<ul>
+<li class="fragment"><a href="https://meshb.nlm.nih.gov/" target="_blank"><strong>Me</strong>dical <strong>S</strong>ubject <strong>H</strong>eadings (MeSH) Tree</a></li>
+<li class="fragment">Search “controlled vocabulary thesaurus for [biology]”</li>
+</ul>
+<div class="fragment">
+<p>Try <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>?</p>
+<blockquote>
+<p>What are keywords for [microbial metagenomic metabolomic metabolite cancer research]?</p>
+</blockquote>
+<blockquote>
+<p>Create a controlled vocabulary for [microbial metagenomic metabolomic metabolite cancer research].</p>
+</blockquote>
+</div>
+</section>
+<section id="wildcards-allow-the-capture-of-many-individual-words" class="slide level2">
+<h2><span style="font-size:0.80em;">Wildcards allow the capture of many individual words</span></h2>
+<h3 id="databases-5">Databases</h3>
+<div style="font-size: 0.75em">
+<div id="tbl-wd" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-wd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Wildcards
+</figcaption>
+<div aria-describedby="tbl-wd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Wildcard Charater</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: center;">Example</th>
+<th style="text-align: left;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">*</td>
+<td style="text-align: left;">Any amount of character/s to include zero</td>
+<td style="text-align: center;"><code>*man</code></td>
+<td style="text-align: left;"><code>man, woman, human, superman, superwoman, {etc}</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">?</td>
+<td style="text-align: left;">Any single character</td>
+<td style="text-align: center;"><code>wom?n</code></td>
+<td style="text-align: left;"><code>woman, women</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">$ (WoS only)</td>
+<td style="text-align: left;">Any single or no character</td>
+<td style="text-align: center;"><code>$$man</code></td>
+<td style="text-align: left;"><code>woman, man, human</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</section>
+<section id="boolean-operators-are-vital-to-focus-a-corpus" class="slide level2">
+<h2><span style="font-size:0.80em;">Boolean operators are vital to focus a corpus</span></h2>
+<h3 id="databases-6">Databases</h3>
+<div class="vscroll">
+<div style="font-size: 0.75em">
+<div id="tbl-bo" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-bo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Boolean Operators
+</figcaption>
+<div aria-describedby="tbl-bo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Operator</th>
+<th style="text-align: left;">Affect on Search</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>AND</strong></td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Intersects <em>all</em> terms separated by operator</td>
+<td style="text-align: left;"><code>migration AND butterfl*</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>OR</strong></td>
+<td style="text-align: left;">Broadens</td>
+<td style="text-align: left;">Unites <em>any</em> and <em>all</em> terms separated by operator</td>
+<td style="text-align: left;"><code>migration OR butterfl*</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>NOT</strong></td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Excludes term following operator</td>
+<td style="text-align: left;"><code>migration AND bird* NOT butterfl*</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>NEAR/x</strong>(WoS)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms joined by operator <em>near</em> each other by <span class="math inline">\(x\)</span> words</td>
+<td style="text-align: left;"><code>America NEAR/10 butterfly</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>SAME</strong>(WoS)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms joined by operator if in the <em>same</em> sentence</td>
+<td style="text-align: left;"><code>America SAME butterfly</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>W/n</strong>(Scopus)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms joined by operator <em>within</em> each other by <span class="math inline">\(n\)</span> words</td>
+<td style="text-align: left;"><code>American W/10 butterfly</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>Pre/n</strong>(Scopus)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms where <em>preceeding</em> term to operator is within <span class="math inline">\(n\)</span> words of following term</td>
+<td style="text-align: left;"><code>American Pre/3 butterfly</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="searching-by-phrase-may-simplify-a-search" class="slide level2">
+<h2>Searching by phrase may simplify a search</h2>
+<h3 id="databases-7">Databases</h3>
+<div style="font-size: 0.75em">
+<div id="tbl-ps" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Pharse Searching
+</figcaption>
+<div aria-describedby="tbl-ps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Phrase type</th>
+<th style="text-align: center;">Example</th>
+<th style="text-align: center;">Search</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Loose</strong></td>
+<td style="text-align: center;"><code>"phrase searching"</code></td>
+<td style="text-align: center;"><code>phrase search, phrase searches, phrase searching</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>Exact</strong>(Scopus)</td>
+<td style="text-align: center;"><code>{phrase searching}</code></td>
+<td style="text-align: center;"><code>phrase searching</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</div>
+<aside class="notes">
+<p>lemmatization and stemming (i.e.&nbsp;techniques to reduce words to their root form)</p>
+<p>loose allows for wildcards to be included in the quotations. exact will search for the exact characters inbetween the curly braces (do not include wildcards)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="combine-all-search-techniques-for-the-best-corpus-results" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><span class="small">Combine all search techniques for the best corpus results</span></h2>
+<h3 id="databases-8">Databases</h3>
+<p>WoS = 184</p>
+<div class="smaller" data-id="wos">
+<blockquote>
+<p>ALL=((“colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*”) AND (“metagenom*” AND “metabol*”))</p>
+</blockquote>
+</div>
+<p>Scopus = 367 &amp; PubMed = 248</p>
+<div class="smaller" data-id="scopus">
+<blockquote>
+<p>TITLE-ABS-KEY ( “colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*” AND “metagenom*” AND “metabol*” )</p>
+</blockquote>
+</div>
+</section>
+<section id="combine-all-search-techniques-for-the-best-corpus-results-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"><span class="small">Combine all search techniques for the best corpus results</span></h2>
+<h3 id="databases-9">Databases</h3>
+<p>WoS = 184</p>
+<div class="small" data-id="wos">
+<blockquote>
+<p>ALL=(<span style="color: red;"><strong>(</strong></span>“colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*”<span style="color: red;"><strong>) AND (</strong></span>metagenom*” AND “metabol*”<span style="color: red;"><strong>)</strong></span>)</p>
+</blockquote>
+</div>
+<p>Scopus = 367 &amp; PubMed = 248</p>
+<div class="smaller" data-id="scopus">
+<blockquote>
+<p>TITLE-ABS-KEY ( “colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*” AND “metagenom*” AND “metabol*” )</p>
+</blockquote>
+</div>
+</section>
+<section id="sample-size-goals-of-500---1500-articles" class="slide level2">
+<h2><span class="small">Sample Size goals of 500 - 1500 articles</span></h2>
+<h3 id="databases-10">Databases</h3>
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+
+<div class="container">
+  <img src="images/power-plot.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    Results from power simulation, showing power as a function of sample size, with effect sizes shown as different colors, and alpha shown as line type. The standard criterion of 80 percent power is shown by the dotted black line.
+  </div>
+</div>
+</section>
+<section id="build-a-corpus-for-your-interests" class="slide level2">
+<h2>Build a corpus for your interests</h2>
+<h3 id="databases-11">Databases</h3>
+<p>Focus on <a href="https://www.webofscience.com" target="_blank">WoS</a> and/or <a href="https://www.scopus.com" target="_blank">Scopus</a></p>
+<aside class="notes">
+<p>Keep in mind, from this point on a literature search should only ever take a maximum of 10-15 minutes.</p>
+<p>Refer back to <a href="#/tbl-wd" class="quarto-xref">Table&nbsp;1</a>, <a href="#/tbl-bo" class="quarto-xref">Table&nbsp;2</a>, <a href="#/tbl-ps" class="quarto-xref">Table&nbsp;3</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="vscroll">
+<div id="tbl-panel" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Wildcards, Boolean Operators, Phrase Searching
+</figcaption>
+<div aria-describedby="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<hr>
+<table class="caption-top">
+<caption>Wildcards</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 24%">
+<col style="width: 25%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Wildcard Charater</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: center;">Example</th>
+<th style="text-align: left;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">*</td>
+<td style="text-align: left;">Any amount of character/s to include zero</td>
+<td style="text-align: center;"><code>*man</code></td>
+<td style="text-align: left;"><code>man, woman, human, superman, superwoman, {etc}</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">?</td>
+<td style="text-align: left;">Any single character</td>
+<td style="text-align: center;"><code>wom?n</code></td>
+<td style="text-align: left;"><code>woman, women</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">$ (WoS only)</td>
+<td style="text-align: left;">Any single or no character</td>
+<td style="text-align: center;"><code>$$man</code></td>
+<td style="text-align: left;"><code>woman, man, human</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<hr>
+<table class="caption-top">
+<caption>Boolean Operators</caption>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Operator</th>
+<th style="text-align: left;">Affect on Search</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: left;">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>AND</strong></td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find <em>all</em> terms separated by operator</td>
+<td style="text-align: left;"><code>migration AND butterfl\*</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>OR</strong></td>
+<td style="text-align: left;">Broadens</td>
+<td style="text-align: left;">Find <em>any</em> and <em>all</em> terms separated by operator</td>
+<td style="text-align: left;"><code>migration OR butterfl\*</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>NOT</strong></td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Excludes term following operator</td>
+<td style="text-align: left;"><code>migration AND bird\* NOT butterfl\*</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>NEAR/x</strong>(WoS)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms joined by operator <em>near</em> each other by <span class="math inline">\(x\)</span> words</td>
+<td style="text-align: left;"><code>America NEAR/10 butterfly</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>SAME</strong>(WoS)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms joined by operator if in the <em>same</em> sentence</td>
+<td style="text-align: left;"><code>America SAME butterfly</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>W/n</strong>(Scopus)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms joined by operator <em>within</em> each other by <span class="math inline">\(n\)</span> words</td>
+<td style="text-align: left;"><code>American W/10 butterfly</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>Pre/n</strong>(Scopus)</td>
+<td style="text-align: left;">Narrows</td>
+<td style="text-align: left;">Find terms where <em>preceeding</em> term to operator is within <span class="math inline">\(n\)</span> words of following term</td>
+<td style="text-align: left;"><code>American Pre/3 butterfly</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<hr>
+<table class="caption-top">
+<caption>Phrase Searching</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Phrase type</th>
+<th style="text-align: center;">Example</th>
+<th style="text-align: center;">Search</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Loose</strong></td>
+<td style="text-align: center;"><code>"phrase searching"</code></td>
+<td style="text-align: center;"><code>phrase search, phrase searches, phrase searching</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>Exact</strong>(Scopus)</td>
+<td style="text-align: center;"><code>{phrase searching}</code></td>
+<td style="text-align: center;"><code>phrase searching</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+<section id="filtration-techniques-are-whatever-work-for-you" class="slide level2" data-menu-title="Filtration techniques: Prisma">
+<h2><span class="small">Filtration techniques are whatever work for you</span></h2>
+<h3 id="databases-12">Databases</h3>
+<aside class="notes">
+<p>Prisma https://www.sciencedirect.com/science/article/pii/S0895435609001802?via%3Dihub</p>
+<p>80-20 method while scrolling through database? refer to a better way - metagear here?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><img data-src="./fig/prisma.png"></p>
+</div><div class="column" style="width:35%;">
+<p>Literature filtration</p>
+<ul>
+<li>Prisma</li>
+</ul>
+</div></div>
+</section>
+<section id="filtration-techniques-are-whatever-work-for-you-1" class="slide level2" data-menu-title="Filtration techniques:80:20">
+<h2><span class="small">Filtration techniques are whatever work for you</span></h2>
+<h3 id="databases-13">Databases</h3>
+<aside class="notes">
+<p>Prisma https://www.sciencedirect.com/science/article/pii/S0895435609001802?via%3Dihub</p>
+<p>80-20 method while scrolling through database? refer to a better way - metagear here?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><img data-src="./fig/mermaid-flowchart.svg" style="width:75.0%"></p>
+</div><div class="column" style="width:35%;">
+<p>Literature filtration</p>
+<ul>
+<li><span class="op">Prisma</span></li>
+<li>80:20</li>
+</ul>
+</div></div>
+</section>
+<section id="filtration-techniques-are-whatever-work-for-you-2" class="slide level2" data-menu-title="Filtration technique: `metagear`">
+<h2><span class="small">Filtration techniques are whatever work for you</span></h2>
+<h3 id="databases-14">Databases</h3>
+<aside class="notes">
+<p>Prisma https://www.sciencedirect.com/science/article/pii/S0895435609001802?via%3Dihub</p>
+<p>80-20 method while scrolling through database? refer to a better way - metagear here?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><img data-src="./fig/metagear-gui.png"></p>
+</div><div class="column" style="width:35%;">
+<p>Literature filtration</p>
+<ul>
+<li><span class="op">Prisma</span></li>
+<li><span class="op">80:20</span></li>
+<li><code>metagear</code>?</li>
+</ul>
+</div></div>
+</section></section>
+<section>
+<section id="techniques-for-success" class="title-slide slide level1 center">
+<h1>Techniques for Success</h1>
+<ul>
+<li>Quickly sort articles from feeds</li>
+<li>Time management and blocking</li>
+<li>Achievable Goals</li>
+<li>Boredom</li>
+</ul>
+</section>
+<section id="the-8020-method-is-ideal-to-filter-papers" class="slide level2">
+<h2>The 80:20 method is ideal to filter papers</h2>
+<h3 id="techniques-for-success-1">Techniques for Success</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li class="fragment">80:20?
+<ul>
+<li class="fragment">Remove 20% each step</li>
+</ul></li>
+<li class="fragment">Remember IMRaD?
+<ul>
+<li class="fragment">RSS reader focus on Title and Abstract! <code>f</code></li>
+<li class="fragment">Import <code>f</code> into reference manager</li>
+<li class="fragment">“<strong><u>I</u></strong>’<strong><u>D</u></strong> <strong><u>M</u></strong>embe<strong><u>R</u></strong>” better</li>
+</ul></li>
+</ul>
+</div><div class="column absolute" style="top: 90px; right: 0px; width: 60%; ">
+<p><span class="absolute" style="top: 100px; right: 0px; width: 500px; "><img data-src="./fig/mermaid-flowchart.svg"></span></p>
+<div class="cell" data-reveal="true" data-eval="false" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div></div>
+<aside class="notes">
+<p>https://github.com/quarto-dev/quarto-cli/issues/2165</p>
+<p>https://stackoverflow.com/questions/63082398/change-font-of-text-on-links-in-graph-mermaid</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mindfully-approach-time-management-for-best-results" class="slide level2">
+<h2><span style="font-size:0.80em;">Mindfully approach time management for best results!</span></h2>
+<h3 id="techniques-for-success-2">Techniques for Success</h3>
+<p><a href="./fig/mermaid-gantt.png" class="lightbox" data-gallery="quarto-lightbox-gallery-36"><img data-src="./fig/mermaid-gantt.png" style="width:120.0%"></a></p>
+<ul>
+<li class="fragment">Consider time blocking
+<ul>
+<li class="fragment">When do you work best?</li>
+<li class="fragment">3-2-1 method</li>
+</ul></li>
+</ul>
+<div class="cell" data-reveal="true" data-eval="false" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
 </section>
-<section id="sequence-diagram" class="slide level2">
-<h2>Sequence Diagram</h2>
+<section id="achievable-goals-lead-to-accomplishments" class="slide level2">
+<h2>Achievable goals lead to accomplishments</h2>
+<h3 id="techniques-for-success-3">Techniques for Success</h3>
+<div class="columns">
+<div class="column" style="width:35%;">
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">sequenceDiagram
-    participant U as User
-    participant A as API
-    participant D as Database
 
-    U-&gt;&gt;A: Request data
-    A-&gt;&gt;D: Query
-    D--&gt;&gt;A: Results
-    A--&gt;&gt;U: JSON response
-</pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
-</section>
-<section id="mathematics" class="slide level2">
-<h2>Mathematics</h2>
-<p>Inline equations work naturally: <span class="math inline">\(E = mc^2\)</span></p>
-<p>Display equations for complex formulas:</p>
-<p><span class="math display">\[
-\mathcal{L} = -\frac{1}{4}F_{\mu\nu}F^{\mu\nu} + \bar{\psi}(i\gamma^\mu D_\mu - m)\psi
-\]</span></p>
-<p><span class="math display">\[
-P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-\]</span></p>
-</section>
-<section id="two-columns" class="slide level2">
-<h2>Two Columns</h2>
-<h3 id="multi-column">Multi-column</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h4 id="benefits">Benefits</h4>
+</div><div class="column" style="width:65%;">
+<h4 id="achievable-goals">Achievable goals?</h4>
 <ul>
-<li class="fragment">Side-by-side comparisons</li>
-<li class="fragment">Text alongside visuals</li>
-<li class="fragment">Efficient use of space</li>
-<li class="fragment">Clear organization</li>
+<li class="fragment">Atomized tasks
+<ul>
+<li class="fragment">Focus a task until it is a single operation</li>
+<li class="fragment">Doesn’t feel comfortable? The task is still too large</li>
+</ul></li>
+<li class="fragment">Monotropism
+<ul>
+<li class="fragment">Be intentional with you tasks</li>
+<li class="fragment">Reach a flow state in knowledge work</li>
+</ul></li>
 </ul>
-</div><div class="column" style="width:50%;">
-<h4 id="metrics">Metrics</h4>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th style="text-align: right;">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Users</td>
-<td style="text-align: right;">12,450</td>
-</tr>
-<tr class="even">
-<td>Sessions</td>
-<td style="text-align: right;">45,230</td>
-</tr>
-<tr class="odd">
-<td>Conversion</td>
-<td style="text-align: right;">3.2%</td>
-</tr>
-<tr class="even">
-<td>Revenue</td>
-<td style="text-align: right;">$84K</td>
-</tr>
-</tbody>
-</table>
 </div></div>
 </section>
-<section id="callouts" class="slide level2">
-<h2>Callouts</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>Callouts help important information stand out from the rest of your content.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Keyboard Shortcuts</strong></p>
-</div>
-<div class="callout-content">
-<p>Press <strong>F</strong> for fullscreen, <strong>O</strong> for overview, <strong>S</strong> for speaker notes.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-warning callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Warning</strong></p>
-</div>
-<div class="callout-content">
-<p>Always test your presentation in the browser you’ll use for presenting.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="step-by-step-reveal" class="slide level2">
-<h2>Step-by-Step Reveal</h2>
-<p>Content can appear incrementally:</p>
+<section id="boredom-can-lead-to-creative-progress" class="slide level2">
+<h2>Boredom can lead to creative progress</h2>
+<h3 id="technqiues-for-success">Technqiues for Success</h3>
+<h4 id="ennuitedium-slow-thought-processing-ideas"><del>Ennui/Tedium</del> <span class="fragment">Slow thought, Processing ideas</span></h4>
 <ul>
-<li class="fragment">First, introduce your concept</li>
-<li class="fragment">Then, add supporting details</li>
-<li class="fragment">Finally, summarize key points</li>
+<li class="fragment">Eliminate distractions
+<ul>
+<li class="fragment">Boredom or writing</li>
+<li class="fragment">Sit in the arboretum</li>
+</ul></li>
+<li class="fragment">Set regular scheduled limits
+<ul>
+<li class="fragment">400 words before editing</li>
+<li class="fragment">3-6 hours before task switching</li>
+</ul></li>
 </ul>
-<p>This keeps your audience focused on one idea at a time.</p>
+</section></section>
+<section>
+<section id="summary" class="title-slide slide level1 smaller center">
+<h1>Summary</h1>
+<p>You have learned:</p>
+<div class="vscroll">
+<ul>
+<li>RSS and Readers
+<ul>
+<li>The fundamentals of RSS</li>
+<li>The application to use</li>
+</ul></li>
+<li>Inoreader
+<ul>
+<li>Install Inoreader</li>
+<li>Find academic journal feeds</li>
+<li>Organize feeds</li>
+<li>The functionality of Inoreader</li>
+</ul></li>
+<li>Skills to rapidly consume literature
+<ul>
+<li>Quickly sort articles from feeds</li>
+<li>Time management and blocking</li>
+</ul></li>
+<li>Reference management software
+<ul>
+<li>s</li>
+</ul></li>
+<li>Bibliometric Databases
+<ul>
+<li>Bibliographic databases</li>
+<li>Search engine techniques</li>
+<li>Sampling size</li>
+<li>Exportation and Filtration</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="comparison-table" class="slide level2">
-<h2>Comparison Table</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Feature</th>
-<th style="text-align: center;">Basic</th>
-<th style="text-align: center;">Pro</th>
-<th style="text-align: center;">Enterprise</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Projects</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">25</td>
-<td style="text-align: center;">Unlimited</td>
-</tr>
-<tr class="even">
-<td>Storage</td>
-<td style="text-align: center;">1 GB</td>
-<td style="text-align: center;">50 GB</td>
-<td style="text-align: center;">500 GB</td>
-</tr>
-<tr class="odd">
-<td>API Access</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">Limited</td>
-<td style="text-align: center;">Full</td>
-</tr>
-<tr class="even">
-<td>Support</td>
-<td style="text-align: center;">Community</td>
-<td style="text-align: center;">Email</td>
-<td style="text-align: center;">Dedicated</td>
-</tr>
-<tr class="odd">
-<td>SSO</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">Yes</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="images" class="slide level2">
-<h2>Images</h2>
+<section id="acknowledgments" class="slide level2">
+<h2>Acknowledgments</h2>
+<h3 id="i-have-always-imagined-that-paradise-will-be-a-kind-of-library.-jorge-luis-borges">“I have always imagined that Paradise will be a kind of library.”<br>Jorge Luis Borges</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li>C. Titus Brown</li>
+<li>Pamela Reynolds</li>
+<li>Bryshal Moore</li>
+<li>Luiz Irber</li>
+<li>The DataLab</li>
+<li>Professors For The Future</li>
+<li>NSF GRFP</li>
+<li><span class="hovertext" data-hover="For extended training and mentorship. Grant code is T32 GM135741 (NIH T32 IMSD Program)">IMSD</span></li>
+</ul>
+</div><div class="column">
+<p><img data-src="./fig/PFTF.png"></p>
+<p><img data-src="./fig/IMSD logo 1 cropped.png"></p>
+</div></div>
+<h3 id="the-next-best-thing-to-being-wise-oneself-is-to-live-in-a-circle-of-those-who-are.-c.s.-lewis">“The next best thing to being wise oneself is to live in a circle of those who are.” <span class="emoji" data-emoji="bust_in_silhouette">👤</span> C.S. Lewis</h3>
+<div class="columns">
+<div class="column">
+<ul>
+<li>C. Titus Brown</li>
+<li>Pamela Reynolds</li>
+<li>Bryshal Moore</li>
+<li>Luiz Irber</li>
+<li>The DataLab</li>
+<li>Professors For The Future</li>
+<li>NSF GRFP</li>
+<li><span class="hovertext" data-hover="For extended training and mentorship. Grant code is T32 GM135741 (NIH T32 IMSD Program)">IMSD</span></li>
+</ul>
+</div><div class="column">
+<p><img data-src="./fig/PFTF.png"></p>
+<p><img data-src="./fig/IMSD logo 1 cropped.png"></p>
+</div></div>
+</section></section>
+<section>
+<section id="supplementary" class="title-slide slide level1 center">
+<h1>Supplementary</h1>
 
-<img data-src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop.png" class="r-stretch quarto-figure-center"><p class="caption">Sample visualization from Unsplash</p></section>
-<section id="quotes" class="slide level2">
-<h2>Quotes</h2>
-<blockquote>
-<p>The best way to predict the future is to invent it.</p>
-<p>— Alan Kay</p>
-</blockquote>
-<p>Use blockquotes for citations, testimonials, or emphasis.</p>
 </section>
-<section id="get-started" class="slide level2 scrollable">
-<h2>Get Started</h2>
-<h3 id="quick-setup">Quick Setup</h3>
+<section id="sync-attachments-across-computers-with-google-drive" class="slide level2 scrollable">
+<h2><span class="small">Sync attachments across computers with google drive</span></h2>
+<h3 id="install-setup---supp.">Install &amp; Setup - Supp.</h3>
 <ol type="1">
-<li class="fragment">Click <strong>Use this template</strong> on GitHub</li>
-<li class="fragment">Clone your repository locally</li>
-<li class="fragment">Edit <code>content/index.qmd</code></li>
-<li class="fragment">Run <code>make devel</code> to preview</li>
-<li class="fragment">Run <code>make deploy</code> to publish</li>
-</ol>
-<h3 id="resources">Resources</h3>
+<li class="fragment">Download and install <a href="https://www.google.com/drive/download/" target="_blank">Drive for Desktop</a></li>
+<li class="fragment">Skip everything</li>
+<li class="fragment">Go to your <code>zotero-library</code> directory</li>
+<li class="fragment">Right-click <span class="arrow">🢖</span> <code>Sync or Backup this folder</code></li>
+<li class="fragment">Only check <code>Sync with Google Drive</code>
 <ul>
-<li class="fragment"><a href="https://quarto.org/docs/presentations/revealjs/">Quarto RevealJS Docs</a></li>
-<li class="fragment"><a href="https://mermaid.js.org/">Mermaid Diagram Syntax</a></li>
-<li class="fragment"><a href="https://katex.org/docs/supported.html">LaTeX Math Reference</a></li>
+<li class="fragment">Should now be synced under <code>Computers</code> in google drive</li>
+</ul></li>
+<li class="fragment">In secondary computer,
+<ol type="i">
+<li class="fragment">Download, install, and sync <a href="https://www.google.com/drive/download/" target="_blank">Drive for Desktop</a></li>
+<li class="fragment">Allow <code>Offline access</code> to <code>zotero-library</code> for local storage</li>
+<li class="fragment">Repeat the Install &amp; Setup section of this presentation to create the same Zotero system on this new computer - BUT! Replace the <code>zotero-library</code> path with the Google Drive <code>zotero-library</code> path (Slide: Zotfile is for automated attachment management, Step 2)</li>
+</ol></li>
+</ol>
+</section>
+<section id="fixing-file-locations-quickly" class="slide level2 scrollable">
+<h2>Fixing file locations quickly</h2>
+<h3 id="install-setup---supp.-1">Install &amp; Setup - Supp.</h3>
+<aside class="notes">
+<p>zotfile preferences for html</p>
+<p>Zotero can also function as a personal web archive. Storing the html files for the websites that are useful for reviewing.</p>
+<p>https://github.com/jlegewie/zotfile/issues/566</p>
+<p>However, websnap shots have an issue pending in the github repository. They do not automatically rename and move</p>
+<p>Simple manual fix until this issue is fixed in an update is to</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<p>If your attachments are not all being moved by ZotMoov:</p>
+<ol type="1">
+<li class="fragment">Go to <code>My Library</code></li>
+<li class="fragment">Organize by <code>Attachments</code> <span class="emoji" data-emoji="paperclip">📎</span></li>
+<li class="fragment">Click on the webpage icon to the left of the title</li>
+<li class="fragment">Select all items (<code>Ctrl+A</code>)</li>
+<li class="fragment">Right click <span class="arrow">🢖</span> <code>Manage attachments</code> <span class="arrow">🢖</span> <code>Rename and Move</code></li>
+</ol>
+</section>
+<section id="better-bibtex-supports-markdown-bibliographies" class="slide level2 scrollable">
+<h2><span class="small">Better BibTeX supports markdown bibliographies</span></h2>
+<h3 id="install-setup---supp.-2">Install &amp; Setup - Supp.</h3>
+<p><a href="https://retorque.re/zotero-better-bibtex/citing/index.html">Better BibTeX Documentation</a></p>
+<ol type="1">
+<li class="fragment">Select <code>Edit</code> <span class="arrow">🢖</span> <code>Preferences</code></li>
+<li class="fragment">Under <code>Better BibTeX</code> <span class="arrow">🢖</span> <code>Open Better BibTeX preferences...</code></li>
+<li class="fragment">Set <code>Citation key formula</code>
+<ul>
+<li class="fragment">I suggest <code>auth.lower + year + shorttitle(3,3) + journal.lower.abbr</code></li>
+</ul></li>
+<li class="fragment">When citing, add <code>@</code> before the citation key per item cited.</li>
+</ol>
+</section>
+<section id="Finding_RSS_Links" class="slide level2">
+<h2>Finding the RSS link to a website</h2>
+<h3 id="click-here-to-go-back-to-gathering-feeds"><a href="#/Gather_Feeds">Click Here to Go Back to Gathering Feeds</a></h3>
+<ul>
+<li class="fragment"><a href="https://www.rssboard.org/rss-validator" target="_blank">RSS Validator</a></li>
+<li class="fragment">Navigate to the website:
+<ul>
+<li class="fragment">Right click page</li>
+<li class="fragment">Select <code>Page Source</code></li>
+<li class="fragment">Press <code>ctrl+f</code> or <code>cmd+f</code></li>
+<li class="fragment">Type <code>rss</code></li>
+</ul></li>
+<li class="fragment"><a href="https://openrss.org/" target="_blank">No RSS found?</a></li>
 </ul>
 
 
-</section>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="fig/logo.svg" class="slide-logo"></p>
+<p><img src="fig/pres-logo.svg" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Data Intensive Biology Lab</p>
 </div>
@@ -724,6 +3070,55 @@ P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
         ]
       });
     </script>
+    <script type="ojs-module-contents">
+    eyJjb250ZW50cyI6W119
+    </script>
+    <script type="module">
+    if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+    window._ojs.paths.runtimeToDoc = "../..";
+    window._ojs.paths.runtimeToRoot = "../..";
+    window._ojs.paths.docToRoot = "";
+    window._ojs.selfContained = false;
+    window._ojs.runtime.interpretFromScriptTags();
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
@@ -892,6 +3287,38 @@ P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
         }
       });
       </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

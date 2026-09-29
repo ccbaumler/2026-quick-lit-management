@@ -1,86 +1,625 @@
 [
   {
-    "objectID": "index.html#features",
-    "href": "index.html#features",
-    "title": "My Quarto Presentation Template",
-    "section": "Features",
-    "text": "Features\n\nexecute: echo: false warning: false message: false\nhttps://jamesgoldie.dev/writing/stack-gradients-in-r/ https://www.whocanuse.com\n\nThis template includes everything you need for technical presentations:\n\nModern styling with Inter font\nSyntax-highlighted code blocks\nMermaid diagrams\nLaTeX math equations\nResponsive tables\nCallout boxes\nSpeaker notes\n\n\nPress S to open speaker view with notes and timer."
+    "objectID": "index.html#a-foundation-is-key-to-pushing-boundaries",
+    "href": "index.html#a-foundation-is-key-to-pushing-boundaries",
+    "title": "The Modern, Practical Scholar",
+    "section": "A foundation is key to pushing boundaries",
+    "text": "A foundation is key to pushing boundaries\nBackground\n\nThe inherently unstructured nature of graduate school is a big hurdle to pushing the boundary of what is know - there is no guide\n\n\nGraduate school\n\nUnderstand what is known across a domain\nIdentify and explain something that is unknown (Preferably, coherently)\nUltimately, unstructured with many possible options\n\n\n\n\n\n\n All Scientific Knowledge\n\n\n\n\n\n\n\n All Scientific Knowledge"
   },
   {
-    "objectID": "index.html#code-blocks",
-    "href": "index.html#code-blocks",
-    "title": "My Quarto Presentation Template",
-    "section": "Code Blocks",
-    "text": "Code Blocks\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Load and process data\ndf = pd.read_csv(\"data.csv\")\nsummary = df.groupby(\"category\").agg({\n    \"value\": [\"mean\", \"std\", \"count\"]\n})\n\n# Visualize results\nsummary.plot(kind=\"bar\", figsize=(10, 6))\nplt.title(\"Category Summary\")\nplt.tight_layout()\nplt.savefig(\"output.png\")"
+    "objectID": "index.html#improve-personal-professional-care-with-systematic-approaches",
+    "href": "index.html#improve-personal-professional-care-with-systematic-approaches",
+    "title": "The Modern, Practical Scholar",
+    "section": "Improve personal professional care with systematic approaches",
+    "text": "Improve personal professional care with systematic approaches\nBackground\n\n\n\n\nFeelings of:\n\n\nguilt\nall-consuming prioritization\nwealth disparity\ndepression\nanxiety\nstupidity\nuncertainty and disconnection (I.e. Lost)\nurgency and pressure (I.e. time slipping away\nregret\nstress\nisolation\n\n\n\n\nSolutions?\n\ngrin and bear it\ntoo general to fully address the scope\n\n\n\n\n\n\n\nNavigating mental health challenges in graduate school"
   },
   {
-    "objectID": "index.html#data-pipeline",
-    "href": "index.html#data-pipeline",
-    "title": "My Quarto Presentation Template",
-    "section": "Data Pipeline",
-    "text": "Data Pipeline\n\n\n\n\n\nflowchart LR\n    A[Source Data] --&gt; B[Extract]\n    B --&gt; C[Transform]\n    C --&gt; D[Load]\n    D --&gt; E[(Data Warehouse)]\n    E --&gt; F[Analytics]\n    E --&gt; G[Dashboards]"
+    "objectID": "index.html#rss-is-a-web-based-aggregation-tool",
+    "href": "index.html#rss-is-a-web-based-aggregation-tool",
+    "title": "The Modern, Practical Scholar",
+    "section": "RSS is a web-based aggregation tool",
+    "text": "RSS is a web-based aggregation tool\nBackground\n\n\n\nWhat does RSS stand for?\n\nConflicting accounts!\n\nReally Simple Syndication\nRich Site Summary\nRDF Site Summary\n\nRSS \\(\\equiv\\) a website feed aggregator\n\n\n\n\nWhat is RSS though?\n\nSet of technical standards\n\nA standard, computer-readable format\n\nWritten in extensible mark-up language (XML)\nFor storing and sending data through the internet\n\n\n\nAn updating scientific journal website aggregation system!"
   },
   {
-    "objectID": "index.html#sequence-diagram",
-    "href": "index.html#sequence-diagram",
-    "title": "My Quarto Presentation Template",
-    "section": "Sequence Diagram",
-    "text": "Sequence Diagram\n\n\n\n\n\nsequenceDiagram\n    participant U as User\n    participant A as API\n    participant D as Database\n\n    U-&gt;&gt;A: Request data\n    A-&gt;&gt;D: Query\n    D--&gt;&gt;A: Results\n    A--&gt;&gt;U: JSON response"
+    "objectID": "index.html#an-rss-aggregator-will-centralize-all-feeds-across-devices",
+    "href": "index.html#an-rss-aggregator-will-centralize-all-feeds-across-devices",
+    "title": "The Modern, Practical Scholar",
+    "section": "An RSS aggregator will centralize all feeds across devices",
+    "text": "An RSS aggregator will centralize all feeds across devices\nBackground\nThe day an important article is published you will be able to find it!\n\nSingle concentrated reference point\n\nTrack many different websites\nRegular updates (~1-6hrs)\nConvenient\n\nDesktop\nMobile\nTablet\nBrowser"
   },
   {
-    "objectID": "index.html#mathematics",
-    "href": "index.html#mathematics",
-    "title": "My Quarto Presentation Template",
-    "section": "Mathematics",
-    "text": "Mathematics\nInline equations work naturally: \\(E = mc^2\\)\nDisplay equations for complex formulas:\n\\[\n\\mathcal{L} = -\\frac{1}{4}F_{\\mu\\nu}F^{\\mu\\nu} + \\bar{\\psi}(i\\gamma^\\mu D_\\mu - m)\\psi\n\\]\n\\[\nP(A|B) = \\frac{P(B|A) \\cdot P(A)}{P(B)}\n\\]"
+    "objectID": "index.html#too-many-software-options",
+    "href": "index.html#too-many-software-options",
+    "title": "The Modern, Practical Scholar",
+    "section": "Too many software options!!!",
+    "text": "Too many software options!!!\nBackground\n\nThe goal is not to become a poweruser!!!\nThis serves a focused purpose and it does that well.\n\nThere are dozens of notable RSS readers.\nMost have a pay-tiered system.\n\nI suggest Inoreader… currently\n\nMost useful options at unpaid subscription level are:\n\nCompatible with IOS, Andriod, and the Web\nOrganizing with folders and tags\nHighlighting keywords\nAbility to search"
   },
   {
-    "objectID": "index.html#two-columns",
-    "href": "index.html#two-columns",
-    "title": "My Quarto Presentation Template",
-    "section": "Two Columns",
-    "text": "Two Columns\nMulti-column\n\n\nBenefits\n\nSide-by-side comparisons\nText alongside visuals\nEfficient use of space\nClear organization\n\n\nMetrics\n\n\n\nMetric\nValue\n\n\n\n\nUsers\n12,450\n\n\nSessions\n45,230\n\n\nConversion\n3.2%\n\n\nRevenue\n$84K"
+    "objectID": "index.html#create-an-account",
+    "href": "index.html#create-an-account",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create an account",
+    "text": "Create an account\nInstall and Set Up\n\n\n\nGo to Inoreader"
   },
   {
-    "objectID": "index.html#callouts",
-    "href": "index.html#callouts",
-    "title": "My Quarto Presentation Template",
-    "section": "Callouts",
-    "text": "Callouts\n\n\n\n\n\n\nNote\n\n\nCallouts help important information stand out from the rest of your content.\n\n\n\n\n\n\n\n\n\nKeyboard Shortcuts\n\n\nPress F for fullscreen, O for overview, S for speaker notes.\n\n\n\n\n\n\n\n\n\nWarning\n\n\nAlways test your presentation in the browser you’ll use for presenting."
+    "objectID": "index.html#create-an-account-1",
+    "href": "index.html#create-an-account-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create an account",
+    "text": "Create an account\nInstall and Set Up\n\n\n\nGo to Inoreader\nSelect Create account"
   },
   {
-    "objectID": "index.html#step-by-step-reveal",
-    "href": "index.html#step-by-step-reveal",
-    "title": "My Quarto Presentation Template",
-    "section": "Step-by-Step Reveal",
-    "text": "Step-by-Step Reveal\nContent can appear incrementally:\n\nFirst, introduce your concept\nThen, add supporting details\nFinally, summarize key points\n\nThis keeps your audience focused on one idea at a time."
+    "objectID": "index.html#create-an-account-2",
+    "href": "index.html#create-an-account-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create an account",
+    "text": "Create an account\nInstall and Set Up\n\n\n\nGo to Inoreader\nSelect Create account\nFill in email and password\nSelect Create account"
   },
   {
-    "objectID": "index.html#comparison-table",
-    "href": "index.html#comparison-table",
-    "title": "My Quarto Presentation Template",
-    "section": "Comparison Table",
-    "text": "Comparison Table\n\n\n\nFeature\nBasic\nPro\nEnterprise\n\n\n\n\nProjects\n3\n25\nUnlimited\n\n\nStorage\n1 GB\n50 GB\n500 GB\n\n\nAPI Access\n-\nLimited\nFull\n\n\nSupport\nCommunity\nEmail\nDedicated\n\n\nSSO\n-\n-\nYes"
+    "objectID": "index.html#optionally-download-the-mobile-app",
+    "href": "index.html#optionally-download-the-mobile-app",
+    "title": "The Modern, Practical Scholar",
+    "section": "Optionally, download the mobile app",
+    "text": "Optionally, download the mobile app\nInstall and Set Up\n\nfor local image as badges\n\n\nBenefits\n\nPortability\nInteroperability\nMake doom scrolling productive\n\n\nClick your system below:"
   },
   {
-    "objectID": "index.html#images",
-    "href": "index.html#images",
-    "title": "My Quarto Presentation Template",
-    "section": "Images",
-    "text": "Images\n\nSample visualization from Unsplash"
+    "objectID": "index.html#optionally-install-a-browser-extension",
+    "href": "index.html#optionally-install-a-browser-extension",
+    "title": "The Modern, Practical Scholar",
+    "section": "Optionally, install a browser extension",
+    "text": "Optionally, install a browser extension\nInstall and Set Up\n\nBenefits\n\nPortability\nInteroperability\nMake doom scrolling productive\n\n\nClick your system below:"
   },
   {
-    "objectID": "index.html#quotes",
-    "href": "index.html#quotes",
-    "title": "My Quarto Presentation Template",
-    "section": "Quotes",
-    "text": "Quotes\n\nThe best way to predict the future is to invent it.\n— Alan Kay\n\nUse blockquotes for citations, testimonials, or emphasis."
+    "objectID": "index.html#quick-guide-to-curate-feeds-in-inoreader",
+    "href": "index.html#quick-guide-to-curate-feeds-in-inoreader",
+    "title": "The Modern, Practical Scholar",
+    "section": "Quick guide to curate feeds in Inoreader",
+    "text": "Quick guide to curate feeds in Inoreader\nInstall and Set Up\n\n\n\nSelect Add new"
   },
   {
-    "objectID": "index.html#get-started",
-    "href": "index.html#get-started",
-    "title": "My Quarto Presentation Template",
-    "section": "Get Started",
-    "text": "Get Started\nQuick Setup\n\nClick Use this template on GitHub\nClone your repository locally\nEdit content/index.qmd\nRun make devel to preview\nRun make deploy to publish\n\nResources\n\nQuarto RevealJS Docs\nMermaid Diagram Syntax\nLaTeX Math Reference"
+    "objectID": "index.html#quick-guide-to-curate-feeds-in-inoreader-1",
+    "href": "index.html#quick-guide-to-curate-feeds-in-inoreader-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Quick guide to curate feeds in Inoreader",
+    "text": "Quick guide to curate feeds in Inoreader\nInstall and Set Up\n\n\n\nSelect Add new\nSearch a topic, website, or journal"
+  },
+  {
+    "objectID": "index.html#quick-guide-to-curate-feeds-in-inoreader-2",
+    "href": "index.html#quick-guide-to-curate-feeds-in-inoreader-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Quick guide to curate feeds in Inoreader",
+    "text": "Quick guide to curate feeds in Inoreader\nInstall and Set Up\n\n\n\nSelect Add new\nSearch a topic, website, or journal\nSelect Follow from the feed suggestions"
+  },
+  {
+    "objectID": "index.html#Gather_Feeds",
+    "href": "index.html#Gather_Feeds",
+    "title": "The Modern, Practical Scholar",
+    "section": "Gather feeds to fit your research interests",
+    "text": "Gather feeds to fit your research interests\nInstall and Set Up\n\ngo to science.com and scroll to the bottom\nclick the rss symbol\ncopy url of rss xml site and paste into inoreader\nwsj:thejournal (rss symbol)\nUse nature (rss feed), science (rss symbol), and biorxiv (specific set up) as examples\n\n\ndocument.getElementById(\"userInput\").addEventListener(\"input\", function() {\n  let userInput = this.value;\n  let words = userInput.split(\"-\");\n  \n  let output = \"\";\n  words.forEach(word =&gt; {\n    output += `&lt;li&gt;${word}&lt;/li&gt;`;\n  });\n  \n  document.getElementById(\"outputText\").innerHTML = `&lt;ul&gt;${output}&lt;/ul&gt;`;\n});\n\n\n\n\n\n\n\n\n\nJournal options \n\nWiki of Academic Journals\nWiki of Scientific Journals\nScopus Journals\nThe NIH Library of Journals\nChatGPT: “what are the best journals for [bioinformatics] research?”\nFind RSS Links on a Website Supp."
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-creating-folders",
+    "href": "index.html#organize-feeds-by-creating-folders",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by creating folders",
+    "text": "Organize feeds by creating folders\nInstall and Set Up\nCreate new folder\n\n\n\nSelect 📁 icon"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-creating-folders-1",
+    "href": "index.html#organize-feeds-by-creating-folders-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by creating folders",
+    "text": "Organize feeds by creating folders\nInstall and Set Up\nCreate new folder\n\n\n\nSelect 📁 icon\nWrite Folder name"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-creating-folders-2",
+    "href": "index.html#organize-feeds-by-creating-folders-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by creating folders",
+    "text": "Organize feeds by creating folders\nInstall and Set Up\nCreate new folder\n\n\n\nSelect 📁 icon\nWrite Folder name\nBegin searching for feeds"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-creating-folders-3",
+    "href": "index.html#organize-feeds-by-creating-folders-3",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by creating folders",
+    "text": "Organize feeds by creating folders\nInstall and Set Up\nCreate new folder\n\n\n\nSelect 📁 icon\nWrite Folder name\nBegin searching for feeds\nSelect feeds to add"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-adding-to-existing-folders",
+    "href": "index.html#organize-feeds-by-adding-to-existing-folders",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by adding to existing folders",
+    "text": "Organize feeds by adding to existing folders\nInstall and Set Up\nAdd to existing\n\n\n\nSelect ⚙️ icon"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-adding-to-existing-folders-1",
+    "href": "index.html#organize-feeds-by-adding-to-existing-folders-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by adding to existing folders",
+    "text": "Organize feeds by adding to existing folders\nInstall and Set Up\nAdd to existing\n\n\n\nSelect ⚙️ icon\nSelect folders dropdown"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-adding-to-existing-folders-2",
+    "href": "index.html#organize-feeds-by-adding-to-existing-folders-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by adding to existing folders",
+    "text": "Organize feeds by adding to existing folders\nInstall and Set Up\nAdd to existing\n\n\n\nSelect ⚙️\nSelect folders dropdown\nSelect Without folder"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-adding-to-existing-folders-3",
+    "href": "index.html#organize-feeds-by-adding-to-existing-folders-3",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by adding to existing folders",
+    "text": "Organize feeds by adding to existing folders\nInstall and Set Up\nAdd to existing\n\n\n\nSelect ⚙️\nSelect folders dropdown\nSelect Without folder\nSelect feeds"
+  },
+  {
+    "objectID": "index.html#organize-feeds-by-adding-to-existing-folders-4",
+    "href": "index.html#organize-feeds-by-adding-to-existing-folders-4",
+    "title": "The Modern, Practical Scholar",
+    "section": "Organize feeds by adding to existing folders",
+    "text": "Organize feeds by adding to existing folders\nInstall and Set Up\nAdd to existing\n\n\n\nSelect ⚙️\nSelect folders dropdown\nSelect Without folder\nSelect feeds\nSelect option from dropdown"
+  },
+  {
+    "objectID": "index.html#make-your-folders-for-your-feeds",
+    "href": "index.html#make-your-folders-for-your-feeds",
+    "title": "The Modern, Practical Scholar",
+    "section": "Make your folders for your feeds",
+    "text": "Make your folders for your feeds\nInstall and Set Up\n\n\n\nConsider grouping journals categories:\n\nBroad\n\ninterdisciplinary, high-impact factor\n\nTopics\n\nMolecular Biology, Genetics, Bioinformatics\n\nTime span they publish or you want to check\n\nContinuous, Weekly, Monthly, Quarterly, Annually\n“Nature is a weekly international journal”\n\nAccess\n\nOpen access, Publisher, Preprints\n\n\n\n\n\n\n\n\n\n\n\ndocument.getElementById(\"userInput2\").addEventListener(\"input\", function() {\n  let userInput2 = this.value;\n  let words = userInput2.split(\"-\");\n  \n  let output = \"\";\n  words.forEach(word =&gt; {\n    output += `&lt;li&gt;${word}&lt;/li&gt;`;\n  });\n  \n  document.getElementById(\"outputText2\").innerHTML = `&lt;ul&gt;${output}&lt;/ul&gt;`;\n});"
+  },
+  {
+    "objectID": "index.html#highlighting-keywords-for-efficient-literature-discovery",
+    "href": "index.html#highlighting-keywords-for-efficient-literature-discovery",
+    "title": "The Modern, Practical Scholar",
+    "section": "Highlighting keywords for efficient literature discovery",
+    "text": "Highlighting keywords for efficient literature discovery\nSuggested Usage\n\n\nAssign color to keywords\n\nTrouble? Try GenAI for a list:\n\nWhat are keywords for [microbial metagenomic metabolomic metabolite cancer] research?\nPlease expand this list further. (Generic or with direction…)"
+  },
+  {
+    "objectID": "index.html#tags-articles-to-organize-and-recall",
+    "href": "index.html#tags-articles-to-organize-and-recall",
+    "title": "The Modern, Practical Scholar",
+    "section": "Tags articles to organize and recall",
+    "text": "Tags articles to organize and recall\nSuggested Usage\n\n\nLike the Read later category\n\n\nLibrary\n\nTag with keywords like:\n\nTopics: ProjectName, QE, Grant\nContent: Video, peer, opinion, review\nResources: Github, scripts, references\nPriority: High, medium, low"
+  },
+  {
+    "objectID": "index.html#navigating-literature-blazingly-fast-with-keybindings",
+    "href": "index.html#navigating-literature-blazingly-fast-with-keybindings",
+    "title": "The Modern, Practical Scholar",
+    "section": "Navigating literature blazingly fast with keybindings",
+    "text": "Navigating literature blazingly fast with keybindings\nSuggested Usage\n\n\nh or ? for keybindings"
+  },
+  {
+    "objectID": "index.html#navigating-literature-blazingly-fast-with-keybindings-1",
+    "href": "index.html#navigating-literature-blazingly-fast-with-keybindings-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Navigating literature blazingly fast with keybindings",
+    "text": "Navigating literature blazingly fast with keybindings\nSuggested Usage\n\n\nBelow are some suggestions to speed-up your usage:\n\nn, p or with shift: navigate the articles or side-bar\nj, k : navigate the Article view or space: to scroll through the abstract\nm, f: mark the articles as read or read later\n1, 3: change views from list to cards\nuse v to load a new tab or w to load the content\n\n\n\n\n\n\n\n\n\ndocument.getElementById(\"userInput3\").addEventListener(\"input\", function() {\n  let userInput3 = this.value;\n  let words = userInput3.split(\" \");\n  \n  let output = \"\";\n  words.forEach(word =&gt; {\n    output += `&lt;li&gt;${word}&lt;/li&gt;`;\n  });\n  \n  document.getElementById(\"outputText3\").innerHTML = `&lt;ul&gt;${output}&lt;/ul&gt;`;\n});"
+  },
+  {
+    "objectID": "index.html#search-the-feeds-for-rapid-rediscovery",
+    "href": "index.html#search-the-feeds-for-rapid-rediscovery",
+    "title": "The Modern, Practical Scholar",
+    "section": "Search the feeds for rapid re/discovery",
+    "text": "Search the feeds for rapid re/discovery\nSuggested Usage\n\n\nLocated at:\n\nUpper right 🢖 🔍\nLeft-hand 🢖 🔍\nAdd feed 🢖 Monitor feed\n\n\nStraight-forward operation:\n\nSearch articles in feeds, folder, or tags\n\n\n\nUse boolean operators\n\nAND\nOR\nNOT\n\"\"\n()\n\n\n\n\n\nBoolean operators are terms used to combine or exclude keywords in search queries to narrow down or broaden search results in a search engine. They are words like “AND,” “OR,” and “NOT” that help refine the search by specifying relationships between keywords.\nAND: Narrows down the search by requiring both terms to be present in the results. For example, searching for \"cats AND dogs\" will return results that mention both cats and dogs.\n\nOR: Broadens the search, returning results that include either one or both of the specified terms. Searching for \"cats OR dogs\" will retrieve results mentioning either cats or dogs or both.\n\nNOT: Excludes specific terms from the search results. For instance, searching for \"cats NOT dogs\" will display results related to cats but exclude any that mention dogs.\nThese operators are useful for making searches more precise and tailored to your needs by including, excluding, or combining keywords in various ways."
+  },
+  {
+    "objectID": "index.html#reference-management-software-lead-to-thriving-scholars",
+    "href": "index.html#reference-management-software-lead-to-thriving-scholars",
+    "title": "The Modern, Practical Scholar",
+    "section": "Reference Management Software Lead to Thriving Scholars",
+    "text": "Reference Management Software Lead to Thriving Scholars\nBackground\n\n\n\n\nWhat is RMS?\n\nDatabase of bibliographic records\nCreator of bibliographic citations\nDocument and knowledge management\n\nCollection structure\nTags\nNotetaking\n\n\n\n\n\n\n\nWhat influences choice?\n\n\n\nCampus educators (library, dept, etc.)\nTeachers and Colleagues\nBut, Overall? Exposure!"
+  },
+  {
+    "objectID": "index.html#scholars-want-the-easiest-tool-for-reference-management",
+    "href": "index.html#scholars-want-the-easiest-tool-for-reference-management",
+    "title": "The Modern, Practical Scholar",
+    "section": "Scholars Want the Easiest Tool for Reference Management",
+    "text": "Scholars Want the Easiest Tool for Reference Management\nBackground\n\n\n\n\n\n\nUser-defined important parameters for RMS. Nitsos et al., 2022, p. 105\n\n\n\n\nScholar needs?\n\nEasy\nFree\nFriendly"
+  },
+  {
+    "objectID": "index.html#zotero-is-free-open-source-community-driven-software",
+    "href": "index.html#zotero-is-free-open-source-community-driven-software",
+    "title": "The Modern, Practical Scholar",
+    "section": "Zotero is Free, Open-source, Community-driven Software",
+    "text": "Zotero is Free, Open-source, Community-driven Software\nBackground\n\nParticipant’s ratings of RMS. Cai et al., 2021, p. 68\n\nZotero [zoh-TAIR-oh] is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources. - Zotero’s quick start guide"
+  },
+  {
+    "objectID": "index.html#benefits-of-a-web-account",
+    "href": "index.html#benefits-of-a-web-account",
+    "title": "The Modern, Practical Scholar",
+    "section": "Benefits of a web account",
+    "text": "Benefits of a web account\nInstall & Setup\n\n\nBenefits\n\nFree 300 mb storage"
+  },
+  {
+    "objectID": "index.html#benefits-of-a-web-account-1",
+    "href": "index.html#benefits-of-a-web-account-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Benefits of a web account",
+    "text": "Benefits of a web account\nInstall & Setup\n\n\nBenefits\n\nFree 300 mb storage\n\n\nAccess library anywhere with internet\nSyncing and backup across all devices\nJoin shared collections with Zotero groups"
+  },
+  {
+    "objectID": "index.html#create-a-web-account",
+    "href": "index.html#create-a-web-account",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create a web account",
+    "text": "Create a web account\nInstall & Setup\n\n\n\nGo to zotero.org"
+  },
+  {
+    "objectID": "index.html#create-a-web-account-1",
+    "href": "index.html#create-a-web-account-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create a web account",
+    "text": "Create a web account\nInstall & Setup\n\n\n\nGo to zotero.org\nClick Log In"
+  },
+  {
+    "objectID": "index.html#create-a-web-account-2",
+    "href": "index.html#create-a-web-account-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create a web account",
+    "text": "Create a web account\nInstall & Setup\n\n\n\nGo to zotero.org\nClick Log In\nClick Register for a free account"
+  },
+  {
+    "objectID": "index.html#create-a-web-account-3",
+    "href": "index.html#create-a-web-account-3",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create a web account",
+    "text": "Create a web account\nInstall & Setup\n\n\n\nGo to zotero.org\nClick Log In\nClick Register for a free account\nFill out the info"
+  },
+  {
+    "objectID": "index.html#create-a-web-account-4",
+    "href": "index.html#create-a-web-account-4",
+    "title": "The Modern, Practical Scholar",
+    "section": "Create a web account",
+    "text": "Create a web account\nInstall & Setup\n\n\n\nGo to zotero.org\nClick Log In\nClick Register for a free account\nFill out the info\nClick Register"
+  },
+  {
+    "objectID": "index.html#download-zotero-for-your-operating-system",
+    "href": "index.html#download-zotero-for-your-operating-system",
+    "title": "The Modern, Practical Scholar",
+    "section": "Download Zotero for your Operating System",
+    "text": "Download Zotero for your Operating System\nInstall & Setup\nAt zotero.org/download\n\n\nDetails\n\n\nMac\nWindows\nLinux\nChromebook\nAutomatically updates"
+  },
+  {
+    "objectID": "index.html#zotero-connector-in-browser-simplifies-storing-articles",
+    "href": "index.html#zotero-connector-in-browser-simplifies-storing-articles",
+    "title": "The Modern, Practical Scholar",
+    "section": "Zotero Connector in browser simplifies storing articles",
+    "text": "Zotero Connector in browser simplifies storing articles\nInstall & Setup\n\nhttps://forums.zotero.org/discussion/76073/solved-zotero-connector-shortcut-conflict-with-firefox\n\nAt zotero.org/download\n\n\nDetails\n\n\nFirefox (Recommended)\nChrome\nEdge\nSafari"
+  },
+  {
+    "objectID": "index.html#optionally-download-the-app",
+    "href": "index.html#optionally-download-the-app",
+    "title": "The Modern, Practical Scholar",
+    "section": "Optionally, download the app",
+    "text": "Optionally, download the app\nInstall & Setup\n\nBenefits\n\nPortability\ninteroperability\nGathering and managing on the go\n\nShare 🢖 Zotero app\n\n\n\nClick your operating system below:"
+  },
+  {
+    "objectID": "index.html#downloading-plugins-to-extend-zoteros-abilities",
+    "href": "index.html#downloading-plugins-to-extend-zoteros-abilities",
+    "title": "The Modern, Practical Scholar",
+    "section": "Downloading plugins to extend Zotero’s abilities!",
+    "text": "Downloading plugins to extend Zotero’s abilities!\nInstall & Setup\n\nDownload the .xpi file for the version you want\n\nFor Firefox, right-click and Save Link As...\n\nOR! Set the Boolean for browser.altClickSave to true at about:config\n\n\n\n\n\n\n\nActions and Tags\n\nLatest Release\n\nActions and Tags\n\nLatest Release\n\nActions and Tags\n\nLatest Release\n\n\n\n\n\n\nZotMoov\n\nLatest Release\n\nActions and Tags\n\nLatest Release\n\nActions and Tags\n\nLatest Release"
+  },
+  {
+    "objectID": "index.html#install-plugins-to-complete-zoteros-extenstion",
+    "href": "index.html#install-plugins-to-complete-zoteros-extenstion",
+    "title": "The Modern, Practical Scholar",
+    "section": "Install plugins to complete Zotero’s extenstion",
+    "text": "Install plugins to complete Zotero’s extenstion\nInstall & Setup\n\n\n\n\nOpen Zotero"
+  },
+  {
+    "objectID": "index.html#install-plugins-to-complete-zoteros-extenstion-1",
+    "href": "index.html#install-plugins-to-complete-zoteros-extenstion-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Install plugins to complete Zotero’s extenstion",
+    "text": "Install plugins to complete Zotero’s extenstion\nInstall & Setup\n\n\n\n\nOpen Zotero\nSelect Tools 🢖 Plugins"
+  },
+  {
+    "objectID": "index.html#install-plugins-to-complete-zoteros-extenstion-2",
+    "href": "index.html#install-plugins-to-complete-zoteros-extenstion-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Install plugins to complete Zotero’s extenstion",
+    "text": "Install plugins to complete Zotero’s extenstion\nInstall & Setup\n\n\n\n\nOpen Zotero\nSelect Tools 🢖 Plugins\nSelect the gear (⚙️) in the top-right corner"
+  },
+  {
+    "objectID": "index.html#install-plugins-to-complete-zoteros-extenstion-3",
+    "href": "index.html#install-plugins-to-complete-zoteros-extenstion-3",
+    "title": "The Modern, Practical Scholar",
+    "section": "Install plugins to complete Zotero’s extenstion",
+    "text": "Install plugins to complete Zotero’s extenstion\nInstall & Setup\n\n\n\n\nOpen Zotero\nSelect Tools 🢖 Plugins\nSelect the gear (⚙️) in the top-right corner\nChoose Install Plugins From File…"
+  },
+  {
+    "objectID": "index.html#install-plugins-to-complete-zoteros-extenstion-4",
+    "href": "index.html#install-plugins-to-complete-zoteros-extenstion-4",
+    "title": "The Modern, Practical Scholar",
+    "section": "Install plugins to complete Zotero’s extenstion",
+    "text": "Install plugins to complete Zotero’s extenstion\nInstall & Setup\n\n\n\n\nOpen Zotero\nSelect Tools 🢖 Plugins\nSelect the gear (⚙️) in the top-right corner\nChoose Install Plugins From File…\nChoose .xpi files to install\nSelect Open\nSelect Install\nRestart Zotero"
+  },
+  {
+    "objectID": "index.html#configure-zotero-for-well-organized-storage",
+    "href": "index.html#configure-zotero-for-well-organized-storage",
+    "title": "The Modern, Practical Scholar",
+    "section": "Configure Zotero for well-organized storage",
+    "text": "Configure Zotero for well-organized storage\nInstall & Setup\n\nhttps://forums.zotero.org/discussion/83262/zotfile-move-web-snapshot-web-snapshot-and-cloud-storage https://github.com/jlegewie/zotfile/issues/566 https://ikashnitsky.phd/2019/zotero/ https://ikos-dighum.github.io/contents/betterbibtex/markdown_zotero.html\n\n\n\n\n\nGo to Edit 🢖 Settings\n\nFor MacOS, it is Zotero 🢖 Settings (?)\n\n\nUnder General 🢖 File Handling\n\n\n\nUnder General 🢖 File Renaming"
+  },
+  {
+    "objectID": "index.html#backing-up-your-storage-to-the-web",
+    "href": "index.html#backing-up-your-storage-to-the-web",
+    "title": "The Modern, Practical Scholar",
+    "section": "Backing up your storage to the web",
+    "text": "Backing up your storage to the web\nInstall & Setup\n\n\n\nUnder Account 🢖 Account link your web account\n\nUnder Sync\n\nUncheck Sync full-text content\n\nUnder File syncing\n\nCheck sync attachment files in my Library using 🢖 WebDAV\nUncheck Sync attachment files in group libraries using Zotero storage"
+  },
+  {
+    "objectID": "index.html#setting-up-free-storage",
+    "href": "index.html#setting-up-free-storage",
+    "title": "The Modern, Practical Scholar",
+    "section": "Setting up free storage",
+    "text": "Setting up free storage\nInstall & Setup\nKoofr + Zotero = 10 GB free cloud storage"
+  },
+  {
+    "objectID": "index.html#zotmoov-allows-automated-attachment-management",
+    "href": "index.html#zotmoov-allows-automated-attachment-management",
+    "title": "The Modern, Practical Scholar",
+    "section": "ZotMoov allows automated attachment management!",
+    "text": "ZotMoov allows automated attachment management!\nInstall & Setup\n\n\nDirectory to Move/Copy Files To should be your library directory\nFile Behavior change to Copy\nSet up your directory structure:\n\nNested 🢖{/%y}{/%F}for ~/Year/First_Author(e.g. ~/2014/ZutJ)\nFlattened 🢖 /{%y}_{%a}for ~/Year_AuthorLastName(e.g. ~/2014_Zut)"
+  },
+  {
+    "objectID": "index.html#zotero-can-become-a-personal-web-archive",
+    "href": "index.html#zotero-can-become-a-personal-web-archive",
+    "title": "The Modern, Practical Scholar",
+    "section": "Zotero can become a personal web archive",
+    "text": "Zotero can become a personal web archive\nInstall & Setup\n\nUnder General 🢖 File Handling\n\nAn Example"
+  },
+  {
+    "objectID": "index.html#migrating-to-zotero-is-mostly-painless",
+    "href": "index.html#migrating-to-zotero-is-mostly-painless",
+    "title": "The Modern, Practical Scholar",
+    "section": "Migrating to Zotero is mostly painless",
+    "text": "Migrating to Zotero is mostly painless\nInstall & Setup\nFollow the instructions for any popular tool\n\n\n\nYou can also import from other tools, such as Reference Manager, RefWorks, Papers, Google Scholar Library, ReadCube, etc., by exporting to a standardized reference format, such as RIS, BibTeX, or CSL JSON, and then importing into Zotero by clicking File → “Import…” and choose “A file”."
+  },
+  {
+    "objectID": "index.html#a-simple-standard-directory-structure-is-easy-to-organize",
+    "href": "index.html#a-simple-standard-directory-structure-is-easy-to-organize",
+    "title": "The Modern, Practical Scholar",
+    "section": "A simple, standard directory structure is easy to organize",
+    "text": "A simple, standard directory structure is easy to organize\nSuggested Usage\n\n\n\nPARA\n\nProjects\n\nShort-term efforts\n\nAreas\n\nLong-term efforts\n\nResources\n\nTopics of interest\n\nArchives\n\nInactive items from the other categories"
+  },
+  {
+    "objectID": "index.html#a-simple-standard-directory-structure-is-easy-to-organize-1",
+    "href": "index.html#a-simple-standard-directory-structure-is-easy-to-organize-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "A simple, standard directory structure is easy to organize",
+    "text": "A simple, standard directory structure is easy to organize\nSuggested Usage\n\n\n\nPARA\n\nProjects\n\nShort-term efforts\n\nAreas\n\nLong-term efforts\n\nResources\n\nTopics of interest\n\nArchives\n\nInactive items from the other categories"
+  },
+  {
+    "objectID": "index.html#many-avenues-are-available-for-finding-you-documents",
+    "href": "index.html#many-avenues-are-available-for-finding-you-documents",
+    "title": "The Modern, Practical Scholar",
+    "section": "Many avenues are available for finding you documents",
+    "text": "Many avenues are available for finding you documents\nSuggested Usage\nTo gather attachments:\n\n\n\nBase Zotero\n\nunpaywall\nretraction watch\n\nZotero Connector\n\nDatabase query 🢖 Click 📁\nLoad article or webpage 🢖 Left or Right click item icon\n\n\n\n\nBypass paywalls\n\narchive.today\nMedium articles\nScholar subreddit"
+  },
+  {
+    "objectID": "index.html#including-headers-can-increase-note-organization",
+    "href": "index.html#including-headers-can-increase-note-organization",
+    "title": "The Modern, Practical Scholar",
+    "section": "Including headers can increase note organization",
+    "text": "Including headers can increase note organization\nSuggested Usage\n\n\nIncluding the Notes column for quick reference:\n\nRight-click column headers in any collection\nCheck Notes\n\n\nQuick example of note taking and importing into text editor:\n\nOpen pdf in Zotero\nCreate annotations (Alt+1 & Alt+3)\nRight-click item and Add Note from Annotations\nOpen text editor\nImport note"
+  },
+  {
+    "objectID": "index.html#tags-are-incredible-for-organizing-with-visual-aids",
+    "href": "index.html#tags-are-incredible-for-organizing-with-visual-aids",
+    "title": "The Modern, Practical Scholar",
+    "section": "Tags are incredible for organizing with visual aids!",
+    "text": "Tags are incredible for organizing with visual aids!\nSuggested Usage\nUse tags to mark all read and unread items:\n\nAdd ⭕ to an item in the Tags panel.\nIn the lower left panel, right click the tag 🢖 Assign Color...\nSelect a color and Set color\nSelect all items and drop into the tag\n\nFor automatic tagging, install the Actions and Tags addon"
+  },
+  {
+    "objectID": "index.html#for-increased-resolution-create-a-folksonomy-a-thesaurus-of-tags",
+    "href": "index.html#for-increased-resolution-create-a-folksonomy-a-thesaurus-of-tags",
+    "title": "The Modern, Practical Scholar",
+    "section": "For increased resolution create a Folksonomy, a thesaurus of tags",
+    "text": "For increased resolution create a Folksonomy, a thesaurus of tags\nSuggested Usage\n\n\nWhy?\n\nIndividuals or groups will quickly find and re-find sources\nMetadata is shared in groups\n\nOffers guidance to beginners\n\n\n\nHow?\n\nThink and create some keywords that capture the text contents\nSkim abstracts and papers for keywords\nUse bibliometrics or LLMs:\n\nCreate a folksonomy, or a thesaurus of tags, for [topics] studies."
+  },
+  {
+    "objectID": "index.html#auto-curate-your-library-through-saved-searches",
+    "href": "index.html#auto-curate-your-library-through-saved-searches",
+    "title": "The Modern, Practical Scholar",
+    "section": "Auto-Curate your library through saved searches",
+    "text": "Auto-Curate your library through saved searches\nSuggested Usage\n\nA final organizational tool within Zotero is the saved searched. By creating curated searches new items will auto populate by well-defined rules set by the user. These saved searches allow a user to find the new items in both their Unfiled collection and their saved searches. All to allow the user more focused options when beginning their reading or writing tasks.\n\n\nStart an advanced search:\n\nClick the 🔍\nClick Edit 🢖 Advanced Search\nCtrl+Shift+F\n\nDefine an area of continued interest\nUsing keywords in All fields, rapidly tag groups of items"
+  },
+  {
+    "objectID": "index.html#citing-and-bibliographies-are-simplified",
+    "href": "index.html#citing-and-bibliographies-are-simplified",
+    "title": "The Modern, Practical Scholar",
+    "section": "Citing and bibliographies are simplified",
+    "text": "Citing and bibliographies are simplified\nSuggested Usage\n\nPaste the citations: Ctrl+Shift+C a Zotero item/s you have selected 🢖 Ctrl+v in text editor\n\n\n\nGoogle Docs for collabratory documents\n\nOpen google doc: Open a google doc in the google drive you would like to sync to your Zotero library.\nLink account: Integrate your google account with Zotero by clicking Z in the toolbar.\n\nAuthenticate the Google account used to edit the document\n\n\nMicrosoft Word for local documents\n\nOpen Word Doc: Open a word document…\nDone?: There is now a Zotero tab in you document linked to your library!\n\nLibre Office for local documents\n\nOpen Libre Writer: Open a writer document…\nDone?: There is now a Zotero toolbar in you document linked to your library!"
+  },
+  {
+    "objectID": "index.html#extend-your-capabilities-with-addons-and-external-tools",
+    "href": "index.html#extend-your-capabilities-with-addons-and-external-tools",
+    "title": "The Modern, Practical Scholar",
+    "section": "Extend your capabilities with addons and external tools",
+    "text": "Extend your capabilities with addons and external tools\nSuggested Usage\n\nAdditional addons:\n\nReferences\nScite\nDOI Manager\nBetter Notes\nTranslate\nAn AI Assistant?\n\nIntegrated external tools:\n\nResearch Rabbit\n\nExternal tools:\n\nsemantic scholar\nconnected papers\nelicit\nQED\nConsensus\nChatGPT"
+  },
+  {
+    "objectID": "index.html#bibliometrics-provides-an-accessible-framework-for-equitable-scholarship",
+    "href": "index.html#bibliometrics-provides-an-accessible-framework-for-equitable-scholarship",
+    "title": "The Modern, Practical Scholar",
+    "section": "Bibliometrics provides an accessible framework for equitable scholarship",
+    "text": "Bibliometrics provides an accessible framework for equitable scholarship\nBackground\n“[Bibliometrics is] The measurement of all aspects related to the publication and reading of books and documents.”\n\n\n\nBibliometrics uses\n\nArchival database\nArticle metadata\nStatistical analysis\n\n\n\n\nBibliometrics answers\n\nwhere the field has grown from\nits most relevant articles\nits emerging topics"
+  },
+  {
+    "objectID": "index.html#bibliometrics-yields-networks-based-on-references",
+    "href": "index.html#bibliometrics-yields-networks-based-on-references",
+    "title": "The Modern, Practical Scholar",
+    "section": "Bibliometrics yields networks based on references",
+    "text": "Bibliometrics yields networks based on references\nBackground\nBibliometrics can rapidly build your compentence in a domain\nBibliometrics can expose you to the techniques of a domain"
+  },
+  {
+    "objectID": "index.html#minimize-your-time-confused-with-bibliometrics",
+    "href": "index.html#minimize-your-time-confused-with-bibliometrics",
+    "title": "The Modern, Practical Scholar",
+    "section": "Minimize your time confused with bibliometrics",
+    "text": "Minimize your time confused with bibliometrics\nBackground\n\nGeneral bibliometric science yields:\n\nA solid foundation of the necessary concepts\nThe questions answered by the field\nSome open areas of discovery within the field\n\nMy proposed use of a bibliometric framework\n\nUse reproducible methods\nfor systematic evaluation\nin a quantifiable way!\nUltimately, ending with justifiable literature for your needs"
+  },
+  {
+    "objectID": "index.html#your-database-choice-will-affect-your-results",
+    "href": "index.html#your-database-choice-will-affect-your-results",
+    "title": "The Modern, Practical Scholar",
+    "section": "Your database choice will affect your results",
+    "text": "Your database choice will affect your results\nDatabases\n\nEach database has its benefits and drawbacks, but scopus and web of science are the competing standard. They also have the best metadata curation for our analysis\nhttps://paperpile.com/g/academic-research-databases/\n\nDatabases focus on different levels of content selection, curation, and comprehensiveness.\n\n\n\nWeb of Science (WoS)\nScopus\nPubMed\nDimensions\nCrossRef\n\n\n\n\nSemantic Scholar\nMicrosoft Academic\nLens.org\nCochran Library\nGoogle Scholar\n\n\n\n“Scopus and WoS compliment each others as neither resource is all inclusive”"
+  },
+  {
+    "objectID": "index.html#your-database-choice-will-affect-your-results-1",
+    "href": "index.html#your-database-choice-will-affect-your-results-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Your database choice will affect your results",
+    "text": "Your database choice will affect your results\nDatabases\n\nEach database has its benefits and drawbacks, but scopus and web of science are the competing standard. They also have the best metadata curation for our analysis\nhttps://paperpile.com/g/academic-research-databases/\n\nDatabases focus on different levels of content selection, curation, and comprehensiveness.\n\n\n\nWeb of Science (WoS)\nScopus\nPubMed\nDimensions\nCrossRef\n\n\n\n\nSemantic Scholar\nMicrosoft Academic\nLens.org\nCochran Library\nGoogle Scholar\n\n\n\n“Scopus and WOS compliment each others as neither resource is all inclusive”"
+  },
+  {
+    "objectID": "index.html#signing-up-search-and-exporting-can-be-nuianced",
+    "href": "index.html#signing-up-search-and-exporting-can-be-nuianced",
+    "title": "The Modern, Practical Scholar",
+    "section": "Signing up, search and exporting can be nuianced",
+    "text": "Signing up, search and exporting can be nuianced\nDatabases\n\nRegister with university email for Scopus and WoS access when off university wifi/library VPN\n\nPubMed does not require registration at all\n\n\n\n\n\n\nScopus (Multidisciplinary)\n\n82.4 million records\n1788 – present\nbibtex\nfull record\n20,000 export limit\n\n\n\n\n\n\nWoS (Multidisciplinary)\n\nCore, 79 million\n1900 - present\nplaintext or bibtex\ncustom selection\n1000 export limit\n\n\n\n\n\n\nPubMed (Only life science and biomedical)\n\n35 million\n1966 - present (*1809)\nplaintext\npubmed format\n10,000 export limit"
+  },
+  {
+    "objectID": "index.html#vocabulary-is-vital-for-a-good-search",
+    "href": "index.html#vocabulary-is-vital-for-a-good-search",
+    "title": "The Modern, Practical Scholar",
+    "section": "Vocabulary is vital for a good search!",
+    "text": "Vocabulary is vital for a good search!\nDatabases\ncontrolled vocabulary thesaurus\n\nMedical Subject Headings (MeSH) Tree\nSearch “controlled vocabulary thesaurus for [biology]”\n\n\nTry ChatGPT?\n\nWhat are keywords for [microbial metagenomic metabolomic metabolite cancer research]?\n\n\nCreate a controlled vocabulary for [microbial metagenomic metabolomic metabolite cancer research]."
+  },
+  {
+    "objectID": "index.html#wildcards-allow-the-capture-of-many-individual-words",
+    "href": "index.html#wildcards-allow-the-capture-of-many-individual-words",
+    "title": "The Modern, Practical Scholar",
+    "section": "Wildcards allow the capture of many individual words",
+    "text": "Wildcards allow the capture of many individual words\nDatabases\n\n\n\n\nTable 1: Wildcards\n\n\n\n\n\n\n\n\n\n\n\nWildcard Charater\nDefinition\nExample\nResult\n\n\n\n\n*\nAny amount of character/s to include zero\n*man\nman, woman, human, superman, superwoman, {etc}\n\n\n?\nAny single character\nwom?n\nwoman, women\n\n\n$ (WoS only)\nAny single or no character\n$$man\nwoman, man, human"
+  },
+  {
+    "objectID": "index.html#boolean-operators-are-vital-to-focus-a-corpus",
+    "href": "index.html#boolean-operators-are-vital-to-focus-a-corpus",
+    "title": "The Modern, Practical Scholar",
+    "section": "Boolean operators are vital to focus a corpus",
+    "text": "Boolean operators are vital to focus a corpus\nDatabases\n\n\n\n\n\nTable 2: Boolean Operators\n\n\n\n\n\n\n\n\n\n\n\nOperator\nAffect on Search\nDefinition\nExample\n\n\n\n\nAND\nNarrows\nIntersects all terms separated by operator\nmigration AND butterfl*\n\n\nOR\nBroadens\nUnites any and all terms separated by operator\nmigration OR butterfl*\n\n\nNOT\nNarrows\nExcludes term following operator\nmigration AND bird* NOT butterfl*\n\n\nNEAR/x(WoS)\nNarrows\nFind terms joined by operator near each other by \\(x\\) words\nAmerica NEAR/10 butterfly\n\n\nSAME(WoS)\nNarrows\nFind terms joined by operator if in the same sentence\nAmerica SAME butterfly\n\n\nW/n(Scopus)\nNarrows\nFind terms joined by operator within each other by \\(n\\) words\nAmerican W/10 butterfly\n\n\nPre/n(Scopus)\nNarrows\nFind terms where preceeding term to operator is within \\(n\\) words of following term\nAmerican Pre/3 butterfly"
+  },
+  {
+    "objectID": "index.html#searching-by-phrase-may-simplify-a-search",
+    "href": "index.html#searching-by-phrase-may-simplify-a-search",
+    "title": "The Modern, Practical Scholar",
+    "section": "Searching by phrase may simplify a search",
+    "text": "Searching by phrase may simplify a search\nDatabases\n\n\n\n\nTable 3: Pharse Searching\n\n\n\n\n\n\n\n\n\n\nPhrase type\nExample\nSearch\n\n\n\n\nLoose\n\"phrase searching\"\nphrase search, phrase searches, phrase searching\n\n\nExact(Scopus)\n{phrase searching}\nphrase searching\n\n\n\n\n\n\n\n\nlemmatization and stemming (i.e. techniques to reduce words to their root form)\nloose allows for wildcards to be included in the quotations. exact will search for the exact characters inbetween the curly braces (do not include wildcards)"
+  },
+  {
+    "objectID": "index.html#combine-all-search-techniques-for-the-best-corpus-results",
+    "href": "index.html#combine-all-search-techniques-for-the-best-corpus-results",
+    "title": "The Modern, Practical Scholar",
+    "section": "Combine all search techniques for the best corpus results",
+    "text": "Combine all search techniques for the best corpus results\nDatabases\nWoS = 184\n\n\nALL=((“colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*”) AND (“metagenom*” AND “metabol*”))\n\n\nScopus = 367 & PubMed = 248\n\n\nTITLE-ABS-KEY ( “colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*” AND “metagenom*” AND “metabol*” )"
+  },
+  {
+    "objectID": "index.html#combine-all-search-techniques-for-the-best-corpus-results-1",
+    "href": "index.html#combine-all-search-techniques-for-the-best-corpus-results-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Combine all search techniques for the best corpus results",
+    "text": "Combine all search techniques for the best corpus results\nDatabases\nWoS = 184\n\n\nALL=((“colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*”) AND (metagenom*” AND “metabol*”))\n\n\nScopus = 367 & PubMed = 248\n\n\nTITLE-ABS-KEY ( “colorectal cancer*” OR “colorectal neoplas*” OR “adenomatous polyposis coli” OR “colon* neoplas*” OR “rectal neoplas*” OR “hereditary nonpolypo*” AND “metagenom*” AND “metabol*” )"
+  },
+  {
+    "objectID": "index.html#sample-size-goals-of-500---1500-articles",
+    "href": "index.html#sample-size-goals-of-500---1500-articles",
+    "title": "The Modern, Practical Scholar",
+    "section": "Sample Size goals of 500 - 1500 articles",
+    "text": "Sample Size goals of 500 - 1500 articles\nDatabases\n\n\n\n  \n  \n    Results from power simulation, showing power as a function of sample size, with effect sizes shown as different colors, and alpha shown as line type. The standard criterion of 80 percent power is shown by the dotted black line."
+  },
+  {
+    "objectID": "index.html#build-a-corpus-for-your-interests",
+    "href": "index.html#build-a-corpus-for-your-interests",
+    "title": "The Modern, Practical Scholar",
+    "section": "Build a corpus for your interests",
+    "text": "Build a corpus for your interests\nDatabases\nFocus on WoS and/or Scopus\n\nKeep in mind, from this point on a literature search should only ever take a maximum of 10-15 minutes.\nRefer back to Table 1, Table 2, Table 3\n\n\n\n\n\nTable 4: Wildcards, Boolean Operators, Phrase Searching\n\n\n\n\n\n\nWildcards\n\n\n\n\n\n\n\n\nWildcard Charater\nDefinition\nExample\nResult\n\n\n\n\n*\nAny amount of character/s to include zero\n*man\nman, woman, human, superman, superwoman, {etc}\n\n\n?\nAny single character\nwom?n\nwoman, women\n\n\n$ (WoS only)\nAny single or no character\n$$man\nwoman, man, human\n\n\n\n\n\n\n\n\n\nBoolean Operators\n\n\n\n\n\n\n\n\nOperator\nAffect on Search\nDefinition\nExample\n\n\n\n\nAND\nNarrows\nFind all terms separated by operator\nmigration AND butterfl\\*\n\n\nOR\nBroadens\nFind any and all terms separated by operator\nmigration OR butterfl\\*\n\n\nNOT\nNarrows\nExcludes term following operator\nmigration AND bird\\* NOT butterfl\\*\n\n\nNEAR/x(WoS)\nNarrows\nFind terms joined by operator near each other by \\(x\\) words\nAmerica NEAR/10 butterfly\n\n\nSAME(WoS)\nNarrows\nFind terms joined by operator if in the same sentence\nAmerica SAME butterfly\n\n\nW/n(Scopus)\nNarrows\nFind terms joined by operator within each other by \\(n\\) words\nAmerican W/10 butterfly\n\n\nPre/n(Scopus)\nNarrows\nFind terms where preceeding term to operator is within \\(n\\) words of following term\nAmerican Pre/3 butterfly\n\n\n\n\n\n\n\n\n\nPhrase Searching\n\n\n\n\n\n\n\nPhrase type\nExample\nSearch\n\n\n\n\nLoose\n\"phrase searching\"\nphrase search, phrase searches, phrase searching\n\n\nExact(Scopus)\n{phrase searching}\nphrase searching"
+  },
+  {
+    "objectID": "index.html#filtration-techniques-are-whatever-work-for-you",
+    "href": "index.html#filtration-techniques-are-whatever-work-for-you",
+    "title": "The Modern, Practical Scholar",
+    "section": "Filtration techniques are whatever work for you",
+    "text": "Filtration techniques are whatever work for you\nDatabases\n\nPrisma https://www.sciencedirect.com/science/article/pii/S0895435609001802?via%3Dihub\n80-20 method while scrolling through database? refer to a better way - metagear here?\n\n\n\n\n\nLiterature filtration\n\nPrisma"
+  },
+  {
+    "objectID": "index.html#filtration-techniques-are-whatever-work-for-you-1",
+    "href": "index.html#filtration-techniques-are-whatever-work-for-you-1",
+    "title": "The Modern, Practical Scholar",
+    "section": "Filtration techniques are whatever work for you",
+    "text": "Filtration techniques are whatever work for you\nDatabases\n\nPrisma https://www.sciencedirect.com/science/article/pii/S0895435609001802?via%3Dihub\n80-20 method while scrolling through database? refer to a better way - metagear here?\n\n\n\n\n\nLiterature filtration\n\nPrisma\n80:20"
+  },
+  {
+    "objectID": "index.html#filtration-techniques-are-whatever-work-for-you-2",
+    "href": "index.html#filtration-techniques-are-whatever-work-for-you-2",
+    "title": "The Modern, Practical Scholar",
+    "section": "Filtration techniques are whatever work for you",
+    "text": "Filtration techniques are whatever work for you\nDatabases\n\nPrisma https://www.sciencedirect.com/science/article/pii/S0895435609001802?via%3Dihub\n80-20 method while scrolling through database? refer to a better way - metagear here?\n\n\n\n\n\nLiterature filtration\n\nPrisma\n80:20\nmetagear?"
+  },
+  {
+    "objectID": "index.html#the-8020-method-is-ideal-to-filter-papers",
+    "href": "index.html#the-8020-method-is-ideal-to-filter-papers",
+    "title": "The Modern, Practical Scholar",
+    "section": "The 80:20 method is ideal to filter papers",
+    "text": "The 80:20 method is ideal to filter papers\nTechniques for Success\n\n\n\n80:20?\n\nRemove 20% each step\n\nRemember IMRaD?\n\nRSS reader focus on Title and Abstract! f\nImport f into reference manager\n“I’D MembeR” better\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttps://github.com/quarto-dev/quarto-cli/issues/2165\nhttps://stackoverflow.com/questions/63082398/change-font-of-text-on-links-in-graph-mermaid"
+  },
+  {
+    "objectID": "index.html#mindfully-approach-time-management-for-best-results",
+    "href": "index.html#mindfully-approach-time-management-for-best-results",
+    "title": "The Modern, Practical Scholar",
+    "section": "Mindfully approach time management for best results!",
+    "text": "Mindfully approach time management for best results!\nTechniques for Success\n\n\nConsider time blocking\n\nWhen do you work best?\n3-2-1 method"
+  },
+  {
+    "objectID": "index.html#achievable-goals-lead-to-accomplishments",
+    "href": "index.html#achievable-goals-lead-to-accomplishments",
+    "title": "The Modern, Practical Scholar",
+    "section": "Achievable goals lead to accomplishments",
+    "text": "Achievable goals lead to accomplishments\nTechniques for Success\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAchievable goals?\n\nAtomized tasks\n\nFocus a task until it is a single operation\nDoesn’t feel comfortable? The task is still too large\n\nMonotropism\n\nBe intentional with you tasks\nReach a flow state in knowledge work"
+  },
+  {
+    "objectID": "index.html#boredom-can-lead-to-creative-progress",
+    "href": "index.html#boredom-can-lead-to-creative-progress",
+    "title": "The Modern, Practical Scholar",
+    "section": "Boredom can lead to creative progress",
+    "text": "Boredom can lead to creative progress\nTechnqiues for Success\nEnnui/Tedium Slow thought, Processing ideas\n\nEliminate distractions\n\nBoredom or writing\nSit in the arboretum\n\nSet regular scheduled limits\n\n400 words before editing\n3-6 hours before task switching"
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "The Modern, Practical Scholar",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n“I have always imagined that Paradise will be a kind of library.”Jorge Luis Borges\n\n\n\nC. Titus Brown\nPamela Reynolds\nBryshal Moore\nLuiz Irber\nThe DataLab\nProfessors For The Future\nNSF GRFP\nIMSD\n\n\n\n\n\n“The next best thing to being wise oneself is to live in a circle of those who are.” 👤 C.S. Lewis\n\n\n\nC. Titus Brown\nPamela Reynolds\nBryshal Moore\nLuiz Irber\nThe DataLab\nProfessors For The Future\nNSF GRFP\nIMSD"
+  },
+  {
+    "objectID": "index.html#sync-attachments-across-computers-with-google-drive",
+    "href": "index.html#sync-attachments-across-computers-with-google-drive",
+    "title": "The Modern, Practical Scholar",
+    "section": "Sync attachments across computers with google drive",
+    "text": "Sync attachments across computers with google drive\nInstall & Setup - Supp.\n\nDownload and install Drive for Desktop\nSkip everything\nGo to your zotero-library directory\nRight-click 🢖 Sync or Backup this folder\nOnly check Sync with Google Drive\n\nShould now be synced under Computers in google drive\n\nIn secondary computer,\n\nDownload, install, and sync Drive for Desktop\nAllow Offline access to zotero-library for local storage\nRepeat the Install & Setup section of this presentation to create the same Zotero system on this new computer - BUT! Replace the zotero-library path with the Google Drive zotero-library path (Slide: Zotfile is for automated attachment management, Step 2)"
+  },
+  {
+    "objectID": "index.html#fixing-file-locations-quickly",
+    "href": "index.html#fixing-file-locations-quickly",
+    "title": "The Modern, Practical Scholar",
+    "section": "Fixing file locations quickly",
+    "text": "Fixing file locations quickly\nInstall & Setup - Supp.\n\nzotfile preferences for html\nZotero can also function as a personal web archive. Storing the html files for the websites that are useful for reviewing.\nhttps://github.com/jlegewie/zotfile/issues/566\nHowever, websnap shots have an issue pending in the github repository. They do not automatically rename and move\nSimple manual fix until this issue is fixed in an update is to\n\nIf your attachments are not all being moved by ZotMoov:\n\nGo to My Library\nOrganize by Attachments 📎\nClick on the webpage icon to the left of the title\nSelect all items (Ctrl+A)\nRight click 🢖 Manage attachments 🢖 Rename and Move"
+  },
+  {
+    "objectID": "index.html#better-bibtex-supports-markdown-bibliographies",
+    "href": "index.html#better-bibtex-supports-markdown-bibliographies",
+    "title": "The Modern, Practical Scholar",
+    "section": "Better BibTeX supports markdown bibliographies",
+    "text": "Better BibTeX supports markdown bibliographies\nInstall & Setup - Supp.\nBetter BibTeX Documentation\n\nSelect Edit 🢖 Preferences\nUnder Better BibTeX 🢖 Open Better BibTeX preferences...\nSet Citation key formula\n\nI suggest auth.lower + year + shorttitle(3,3) + journal.lower.abbr\n\nWhen citing, add @ before the citation key per item cited."
+  },
+  {
+    "objectID": "index.html#Finding_RSS_Links",
+    "href": "index.html#Finding_RSS_Links",
+    "title": "The Modern, Practical Scholar",
+    "section": "Finding the RSS link to a website",
+    "text": "Finding the RSS link to a website\nClick Here to Go Back to Gathering Feeds\n\nRSS Validator\nNavigate to the website:\n\nRight click page\nSelect Page Source\nPress ctrl+f or cmd+f\nType rss\n\nNo RSS found?"
   }
 ]
