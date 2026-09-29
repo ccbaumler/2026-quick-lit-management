@@ -38,13 +38,11 @@ format:
 from: markdown+emoji
 resources:
   - fig/
+execute:
+  eval: false
 ---
 
 # {data-menu-title="Big Picture!"}
-
-```{r, echo=FALSE}
-library(knitr)
-```
 
 ::::: {.columns}
 
@@ -827,7 +825,6 @@ document.getElementById("userInput2").addEventListener("input", function() {
 ## Tags articles to organize and recall
 
 ### Suggested Usage
-
 
 
 ::: notes
