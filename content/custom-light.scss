@@ -151,7 +151,9 @@ $mermaid-label-bg-color: $accent2 !default;
           display: flex;
           justify-content: center;
           align-items: center;
-          height: 70%;
+          text-align: center;
+          height: 100%;
+          width: 100%;
 }
 
 .center-x {
@@ -524,24 +526,25 @@ $mermaid-label-bg-color: $accent2 !default;
   opacity: 0;
   white-space: pre-wrap;
   width: var(--hover-width, 700px);
+  max-width: 80vw;
   background-color: grey;
   color: #fff;
   text-align: left;
   border-radius: 5px;
-  padding: 5px 0;
+  padding: 10px 15px;
   transition: opacity 1s ease-in-out;
   position: absolute;
-  z-index: 1;
+  z-index: 1000 !important;
   left: 50%;
-  bottom: 120%;
+  top: 150%;
   transform: translateX(-50%);
 
   /* Allow text selection */
   user-select: text;
+  box-sizing: border-box;
 }
 
 .hovertext:hover:before {
-  z-index: 10;
   opacity: 1;
   visibility: visible;
 }
