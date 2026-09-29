@@ -38,8 +38,6 @@ format:
 from: markdown+emoji
 resources:
   - fig/
-execute:
-  eval: false
 ---
 
 # {data-menu-title="Big Picture!"}
@@ -1351,10 +1349,10 @@ At [zotero.org/download](https://www.zotero.org/download/)
 
 -   [Actions and Tags](https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero){target="_blank"}
     -   [Latest Release](https://github.com/windingwind/zotero-actions-tags/releases/latest){target="_blank"}
--   [Actions and Tags](https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero){target="_blank"}
-    -   [Latest Release](https://github.com/windingwind/zotero-actions-tags/releases/latest){target="_blank"}
--   [Actions and Tags](https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero){target="_blank"}
-    -   [Latest Release](https://github.com/windingwind/zotero-actions-tags/releases/latest){target="_blank"}
+-   [Attachment Scanner](https://github.com/SciImage/zotero-attachment-scanner){target="_blank"}
+    -   [Latest Release](https://github.com/SciImage/zotero-attachment-scanner/releases/latest){target="_blank"}
+-   [Syllabus](https://github.com/janbaykara/zotero-syllabus){target="_blank"}
+    -   [Latest Release](https://github.com/janbaykara/zotero-syllabus/releases/latest){target="_blank"}
 ::::::
 :::::
 
@@ -1363,14 +1361,14 @@ At [zotero.org/download](https://www.zotero.org/download/)
 ::::: {.column width="50%"}
 
 :::::{.fragment}
-:::::: {.incremental}
+:::::: {.nonincremental}
 
 -   [ZotMoov](https://github.com/wileyyugioh/zotmoov#zotmoov){target="_blank"}
     -   [Latest Release](https://github.com/wileyyugioh/zotmoov/releases/latest){target="_blank"}
--   [Actions and Tags](https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero){target="_blank"}
-    -   [Latest Release](https://github.com/windingwind/zotero-actions-tags/releases/latest){target="_blank"}
--   [Actions and Tags](https://github.com/windingwind/zotero-actions-tags#actions-and-tags-for-zotero){target="_blank"}
-    -   [Latest Release](https://github.com/windingwind/zotero-actions-tags/releases/latest){target="_blank"}
+-   [OCR](https://github.com/UB-Mannheim/zotero-ocr){target="_blank"}
+    -   [Latest Release](https://github.com/UB-Mannheim/zotero-ocr/releases/latest){target="_blank"}
+-   [Attanger](https://github.com/muisedestiny/zotero-attanger){target="_blank"}
+    -   [Latest Release](https://github.com/muisedestiny/zotero-attanger/releases/latest){target="_blank"}
 ::::::
 :::::
 
@@ -2289,7 +2287,7 @@ Scopus = 367 & PubMed = 248
 </style>
 
 <div class="container">
-  <img src="images/power-plot.png" alt="Avatar" class="image" style="width:100%">
+  <img src="./fig/power-plot.png" alt="Avatar" class="image" style="width:100%">
   <div class="middle">
     Results from power simulation, showing power as a function of sample size, with effect sizes shown as different colors, and alpha shown as line type. The standard criterion of 80 percent power is shown by the dotted black line.
   </div>
@@ -2307,13 +2305,6 @@ Keep in mind, from this point on a literature search should only ever take a max
 
 Refer back to @tbl-wd, @tbl-bo, @tbl-ps
 :::
-
-```{r Timer corpus}
-#| echo: false
-countdown::countdown(minutes = 10, seconds = 0, warn_when = 120, 
-                     right = "0%", top = "0%",
-                     blink_colon = TRUE, id = "special_timer")
-```
 
 ::: vscroll
 ::: {#tbl-panel layout-ncol="1"}
